@@ -1,0 +1,22 @@
+Source path:... Project.py
+Starting var:.. password = '123456'
+Starting var:.. salt = '3759e1084282329ca470ac2650f59335'
+00:10:38.634714 call       109 def _hash(password, salt=""):
+00:10:38.637854 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+00:10:38.637854 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. '75710779217faf11a88ed022a682f09f2334886292d035b668061bac05b5ef8e'
+Elapsed time: 00:00:00.006418
+Starting var:.. password = '1234'
+Starting var:.. salt = '3759e1084282329ca470ac2650f59335'
+00:10:57.177911 call       109 def _hash(password, salt=""):
+00:10:57.177911 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+00:10:57.177911 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. '8f86bf580c1689fcef9ffb4aef050bf5a45df7d51572f65527c58e196b9313a8'
+Elapsed time: 00:00:00.000000
+Starting var:.. password = '123456'
+Starting var:.. salt = '3759e1084282329ca470ac2650f59335'
+00:11:08.277694 call       109 def _hash(password, salt=""):
+00:11:08.278705 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+00:11:08.278705 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. '75710779217faf11a88ed022a682f09f2334886292d035b668061bac05b5ef8e'
+Elapsed time: 00:00:00.001011

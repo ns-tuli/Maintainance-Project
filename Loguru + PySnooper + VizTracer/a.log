@@ -1,0 +1,8 @@
+August 18, 2026 > 17:48:26 | WARNING | Failed login attempt 1/3 for email=user1@gmil.com
+August 18, 2026 > 17:48:46 | WARNING | Failed login attempt 2/3 for email=user1@gmail.com
+August 18, 2026 > 17:49:39 | SUCCESS | New user registered: id=1, email=user2@gmail.com
+August 18, 2026 > 17:54:07 | SUCCESS | New user registered: id=2, email=user3@gmail.com
+August 18, 2026 > 17:55:11 | WARNING | Failed login attempt 1/3 for email=user3@gmail.com
+August 18, 2026 > 17:55:23 | SUCCESS | Login successful for user3@gmail.com
+August 18, 2026 > 18:00:47 | SUCCESS | New user registered: id=3, email=user4@gmail.com
+August 18, 2026 > 18:01:01 | SUCCESS | Login successful for user4@gmail.com

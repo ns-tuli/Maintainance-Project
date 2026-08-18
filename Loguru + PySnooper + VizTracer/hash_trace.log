@@ -1,0 +1,59 @@
+Source path:... F:\SEMESTER 8\MAINTAINANCE LAB\LAB FINAL MAINTAINANCE\Maintainance Final github\Maintainance Project\Project.py
+Starting var:.. password = '123456'
+Starting var:.. salt = '25d26e8340083d55ecce0cc76f429721'
+23:49:39.071942 call       109 def _hash(password, salt=""):
+23:49:39.073681 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+23:49:39.073681 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. '214048cc6983af1111934996d817bec0f7ab86e57f291a6594d056f2ab0deaea'
+Elapsed time: 00:00:00.002334
+Starting var:.. password = '123456'
+Starting var:.. salt = '8ceb8c92d699030d3a8204c4f5894658'
+23:49:48.808290 call       109 def _hash(password, salt=""):
+23:49:48.808290 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+23:49:48.818132 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. '2d35654368dbbbeb0623fd67fde86dee6ac8b049d0e0d8cffed12dd4148b0d17'
+Elapsed time: 00:00:00.009842
+Starting var:.. password = 'admin123'
+Starting var:.. salt = '8ceb8c92d699030d3a8204c4f5894658'
+23:50:00.538940 call       109 def _hash(password, salt=""):
+23:50:00.538940 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+23:50:00.538940 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. 'fda7a1d320cc2f9e1ad6cc90abea09e45f6fe868753a74ce187212c52f014168'
+Elapsed time: 00:00:00.000000
+Source path:... F:\SEMESTER 8\MAINTAINANCE LAB\LAB FINAL MAINTAINANCE\Maintainance Final github\Maintainance Project\Project.py
+Starting var:.. password = '123456'
+Starting var:.. salt = 'c7eb007b5a9d45ed65562262b6b5110d'
+23:54:07.905167 call       109 def _hash(password, salt=""):
+23:54:07.907706 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+23:54:07.907706 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. '964c0280cb1be70ec811fd3e24ff2af7fc21f57f2f9e40b622e138d9e9e76328'
+Elapsed time: 00:00:00.004680
+Starting var:.. password = '1234'
+Starting var:.. salt = 'c7eb007b5a9d45ed65562262b6b5110d'
+23:55:11.836994 call       109 def _hash(password, salt=""):
+23:55:11.838513 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+23:55:11.838513 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. '791bdfc751e402bb7deb25b1f7a5f2c32a4763b49949027d87244a37a36ce28f'
+Elapsed time: 00:00:00.001519
+Starting var:.. password = '123456'
+Starting var:.. salt = 'c7eb007b5a9d45ed65562262b6b5110d'
+23:55:23.115841 call       109 def _hash(password, salt=""):
+23:55:23.117952 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+23:55:23.119855 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. '964c0280cb1be70ec811fd3e24ff2af7fc21f57f2f9e40b622e138d9e9e76328'
+Elapsed time: 00:00:00.004014
+Source path:... F:\SEMESTER 8\MAINTAINANCE LAB\LAB FINAL MAINTAINANCE\Maintainance Final github\Maintainance Project\Project.py
+Starting var:.. password = '123456'
+Starting var:.. salt = '203ca3af85799bd0aea93ce160fc1ec5'
+00:00:47.387839 call       109 def _hash(password, salt=""):
+00:00:47.389777 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+00:00:47.390821 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. 'f77e15865162692806078ee71a292b230519bf8d32329aec039a5c1cc40ca41f'
+Elapsed time: 00:00:00.002982
+Starting var:.. password = '123456'
+Starting var:.. salt = '203ca3af85799bd0aea93ce160fc1ec5'
+00:01:01.847677 call       109 def _hash(password, salt=""):
+00:01:01.847677 line       110     return hashlib.sha256((password + salt).encode()).hexdigest()
+00:01:01.847677 return     110     return hashlib.sha256((password + salt).encode()).hexdigest()
+Return value:.. 'f77e15865162692806078ee71a292b230519bf8d32329aec039a5c1cc40ca41f'
+Elapsed time: 00:00:00.000000

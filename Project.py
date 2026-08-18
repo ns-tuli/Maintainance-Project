@@ -6,11 +6,17 @@ import datetime
 import hashlib
 import sys
 
+from loguru import logger
+import pysnooper
+
 # Force UTF-8 encoding for standard output and error on Windows to prevent crash on unicode symbols
 if sys.platform.startswith('win'):
     import io
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
+# ── Lab 03: Loguru setup ────────────────────────────────────────────────────
+logger.add("a.log", format="{time:MMMM D, YYYY > HH:mm:ss!UTC} | {level} | {message}")
 
 # ── Constants ────────────────────────────────────────────────────────────────
 USERS_FILE             = "users.json"
@@ -99,6 +105,7 @@ def _confirm(prompt):
     """Ask a yes/no question; return True for 'y'."""
     return input(f"{prompt} (y/n): ").strip().lower() == "y"
 
+@pysnooper.snoop("hash_trace.log")
 def _hash(password, salt=""):
     return hashlib.sha256((password + salt).encode()).hexdigest()
 
@@ -144,6 +151,7 @@ def register_user():
         "national_id": national_id,
     })
     _save(USERS_FILE, users)
+    logger.success(f"New user registered: id={user_id}, email={email}")
     print(f"Registered successfully! Your user ID is {user_id}.")
 
 
@@ -176,8 +184,10 @@ def login_user():
             if not user.get("is_admin") and user["email"] == email:
                 salt = user.get("salt", "")
                 if user["password"] == _hash(password, salt):
+                    logger.success(f"Login successful for {user['email']}")
                     print(f"Welcome, {user['name']}!")
                     return user
+        logger.warning(f"Failed login attempt {attempt}/{MAX_LOGIN_ATTEMPTS} for email={email}")
         print(f"Wrong email or password. ({attempt}/{MAX_LOGIN_ATTEMPTS})")
     print("Too many failed attempts.")
     return None

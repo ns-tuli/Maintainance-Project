@@ -8,5 +8,41 @@
     "phone": "0000000000",
     "national_id": "0000000000",
     "is_admin": true
+  },
+  {
+    "id": 1,
+    "name": "user 2",
+    "email": "user2@gmail.com",
+    "password": "214048cc6983af1111934996d817bec0f7ab86e57f291a6594d056f2ab0deaea",
+    "salt": "25d26e8340083d55ecce0cc76f429721",
+    "phone": "1234567890",
+    "national_id": "1234567890"
+  },
+  {
+    "id": 2,
+    "name": "user 3",
+    "email": "user3@gmail.com",
+    "password": "964c0280cb1be70ec811fd3e24ff2af7fc21f57f2f9e40b622e138d9e9e76328",
+    "salt": "c7eb007b5a9d45ed65562262b6b5110d",
+    "phone": "1234567890",
+    "national_id": "1234567890"
+  },
+  {
+    "id": 3,
+    "name": "user 4",
+    "email": "user4@gmail.com",
+    "password": "f77e15865162692806078ee71a292b230519bf8d32329aec039a5c1cc40ca41f",
+    "salt": "203ca3af85799bd0aea93ce160fc1ec5",
+    "phone": "1234567890",
+    "national_id": "1234567890"
+  },
+  {
+    "id": 4,
+    "name": "user 5",
+    "email": "user5@gmail.com",
+    "password": "75710779217faf11a88ed022a682f09f2334886292d035b668061bac05b5ef8e",
+    "salt": "3759e1084282329ca470ac2650f59335",
+    "phone": "1234567890",
+    "national_id": "1234567890"
   }
 ]
