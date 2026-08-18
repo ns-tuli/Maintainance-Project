@@ -1,0 +1,442 @@
+90194313216,LITERAL,1,,,,1,__builtin.str,1,0,11,1,,ANY
+90194313217,LITERAL,2,,,json,1,__builtin.str,1,0,11,2,,ANY
+90194313218,LITERAL,1,,,,1,__builtin.str,2,12,21,1,,ANY
+90194313219,LITERAL,2,,,os,1,__builtin.str,2,12,21,2,,ANY
+90194313220,LITERAL,1,,,,1,__builtin.str,3,22,31,1,,ANY
+90194313221,LITERAL,2,,,re,1,__builtin.str,3,22,31,2,,ANY
+90194313222,LITERAL,1,,,,1,__builtin.str,4,32,45,1,,ANY
+90194313223,LITERAL,2,,,random,1,__builtin.str,4,32,45,2,,ANY
+90194313224,LITERAL,1,,,,1,__builtin.str,5,46,61,1,,ANY
+90194313225,LITERAL,2,,,datetime,1,__builtin.str,5,46,61,2,,ANY
+90194313226,LITERAL,1,,,,1,__builtin.str,6,62,76,1,,ANY
+90194313227,LITERAL,2,,,hashlib,1,__builtin.str,6,62,76,2,,ANY
+90194313228,LITERAL,1,,,,1,__builtin.str,7,77,87,1,,ANY
+90194313229,LITERAL,2,,,sys,1,__builtin.str,7,77,87,2,,ANY
+90194313230,LITERAL,1,,,'win',28,__builtin.str,10,216,220,2,,ANY
+90194313231,LITERAL,1,,,,5,__builtin.str,11,228,237,1,,ANY
+90194313232,LITERAL,2,,,io,5,__builtin.str,11,228,237,2,,ANY
+90194313233,LITERAL,-1,,encoding,'utf-8',63,__builtin.str,12,300,306,3,,ANY
+90194313234,LITERAL,-1,,encoding,'utf-8',63,__builtin.str,13,371,377,3,,ANY
+90194313235,LITERAL,2,,,"""users.json""",26,__builtin.str,16,486,497,2,,__builtin.str
+90194313236,LITERAL,2,,,"""vaccination_centers.json""",26,__builtin.str,17,524,549,2,,__builtin.str
+90194313237,LITERAL,2,,,"""reservations.json""",26,__builtin.str,18,576,594,2,,__builtin.str
+90194313238,LITERAL,2,,,3,26,__builtin.int,19,621,622,2,,__builtin.int
+90194313239,LITERAL,-1,,,"""""""Load a JSON file; return empty list if missing, empty, or invalid.""""""",5,__builtin.str,24,731,800,1,,ANY
+90194313240,LITERAL,2,,,0,65,__builtin.int,25,868,869,2,,ANY
+90194313241,LITERAL,2,,,"""r""",33,__builtin.str,27,916,918,2,,ANY
+90194313242,LITERAL,-1,,,"""""""Save data to a JSON file.""""""",5,__builtin.str,34,1068,1096,1,,ANY
+90194313243,LITERAL,-1,,indent,2,35,__builtin.int,36,1169,1170,4,,ANY
+90194313244,LITERAL,2,,,"""w""",25,__builtin.str,35,1124,1126,2,,ANY
+90194313245,LITERAL,-1,,,"""""""Create default centers file and users if they don't exist yet.""""""",5,__builtin.str,39,1194,1259,1,,ANY
+90194313246,LITERAL,2,,,"""id""",14,__builtin.str,42,1345,1348,2,,ANY
+90194313247,LITERAL,2,,,1,20,__builtin.int,42,1351,1352,2,,__builtin.int
+90194313248,LITERAL,2,,,"""name""",23,__builtin.str,42,1354,1359,2,,ANY
+90194313249,LITERAL,2,,,"""Center A""",31,__builtin.str,42,1362,1371,2,,__builtin.str
+90194313250,LITERAL,2,,,"""address""",43,__builtin.str,42,1374,1382,2,,ANY
+90194313251,LITERAL,2,,,"""123 Main Street, Cairo""",54,__builtin.str,42,1385,1408,2,,__builtin.str
+90194313252,LITERAL,2,,,"""vaccines""",85,__builtin.str,42,1416,1425,2,,ANY
+90194313253,LITERAL,1,,,"""Pfizer""",98,__builtin.str,42,1429,1436,1,,ANY
+90194313254,LITERAL,2,,,"""Moderna""",108,__builtin.str,42,1439,1447,2,,ANY
+90194313255,LITERAL,2,,,"""id""",14,__builtin.str,43,1465,1468,2,,ANY
+90194313256,LITERAL,2,,,2,20,__builtin.int,43,1471,1472,2,,__builtin.int
+90194313257,LITERAL,2,,,"""name""",23,__builtin.str,43,1474,1479,2,,ANY
+90194313258,LITERAL,2,,,"""Center B""",31,__builtin.str,43,1482,1491,2,,__builtin.str
+90194313259,LITERAL,2,,,"""address""",43,__builtin.str,43,1494,1502,2,,ANY
+90194313260,LITERAL,2,,,"""456 Second Avenue, Alexandria""",54,__builtin.str,43,1505,1535,2,,__builtin.str
+90194313261,LITERAL,2,,,"""vaccines""",86,__builtin.str,43,1537,1546,2,,ANY
+90194313262,LITERAL,1,,,"""AstraZeneca""",99,__builtin.str,43,1550,1562,1,,ANY
+90194313263,LITERAL,2,,,"""Johnson & Johnson""",114,__builtin.str,43,1565,1583,2,,ANY
+90194313264,LITERAL,1,,,"""is_admin""",22,__builtin.str,48,1698,1707,2,,ANY
+90194313265,LITERAL,1,,,16,33,__builtin.int,49,1759,1761,2,,ANY
+90194313266,LITERAL,2,,,"""id""",13,__builtin.str,51,1804,1807,2,,ANY
+90194313267,LITERAL,2,,,0,19,__builtin.int,51,1810,1811,2,,__builtin.int
+90194313268,LITERAL,2,,,"""name""",13,__builtin.str,52,1825,1830,2,,ANY
+90194313269,LITERAL,2,,,"""Administrator""",21,__builtin.str,52,1833,1847,2,,__builtin.str
+90194313270,LITERAL,2,,,"""email""",13,__builtin.str,53,1862,1868,2,,ANY
+90194313271,LITERAL,2,,,"""admin@system.com""",22,__builtin.str,53,1871,1888,2,,__builtin.str
+90194313272,LITERAL,2,,,"""password""",13,__builtin.str,54,1903,1912,2,,ANY
+90194313273,LITERAL,1,,,"""admin123""",31,__builtin.str,54,1921,1930,1,,ANY
+90194313274,LITERAL,2,,,"""salt""",13,__builtin.str,55,1958,1963,2,,ANY
+90194313275,LITERAL,2,,,"""phone""",13,__builtin.str,56,1990,1996,2,,ANY
+90194313276,LITERAL,2,,,"""0000000000""",22,__builtin.str,56,1999,2010,2,,__builtin.str
+90194313277,LITERAL,2,,,"""national_id""",13,__builtin.str,57,2025,2037,2,,ANY
+90194313278,LITERAL,2,,,"""0000000000""",28,__builtin.str,57,2040,2051,2,,__builtin.str
+90194313279,LITERAL,2,,,"""is_admin""",13,__builtin.str,58,2066,2075,2,,ANY
+90194313280,LITERAL,2,,,True,25,__builtin.int,58,2078,2082,2,,__builtin.bool
+90194313281,LITERAL,-1,,,"""""""Prompt until the user provides valid non-empty input.""""""",5,__builtin.str,69,2392,2448,1,,ANY
+90194313282,LITERAL,-1,,,True,11,__builtin.int,70,2462,2466,1,,ANY
+90194313283,LITERAL,1,,,"""This field cannot be empty.""",19,__builtin.str,73,2546,2574,1,,ANY
+90194313284,LITERAL,-1,,,"""""""Prompt until the user enters a valid integer.""""""",5,__builtin.str,81,2743,2791,1,,ANY
+90194313285,LITERAL,-1,,,True,11,__builtin.int,82,2805,2809,1,,ANY
+90194313286,LITERAL,1,,,"""Please enter a valid number.""",15,__builtin.str,86,2915,2944,1,,ANY
+90194313287,LITERAL,-1,,,"""""""Prompt until the user enters a valid YYYY-MM-DD date.""""""",5,__builtin.str,89,2975,3031,1,,ANY
+90194313288,LITERAL,-1,,,True,11,__builtin.int,90,3045,3049,1,,ANY
+90194313289,LITERAL,1,,,"""Invalid date. Use YYYY-MM-DD format.""",19,__builtin.str,96,3213,3250,1,,ANY
+90194313290,LITERAL,-1,,,"""""""Ask a yes/no question; return True for 'y'.""""""",5,__builtin.str,99,3280,3326,1,,ANY
+90194313291,LITERAL,2,,, (y/n): ,28,__builtin.str,100,3357,3365,2,,ANY
+90194313292,LITERAL,2,,,"""y""",58,__builtin.str,100,3387,3389,2,,ANY
+90194313293,LITERAL,1,,,"r""^[\\w.\\-+]+@[\\w\\-]+\\.[a-zA-Z]{2,}$""",26,__builtin.str,108,3621,3656,2,,ANY
+90194313294,LITERAL,1,,,"r""^\\+?[\\d\\s\\-]{7,15}$""",26,__builtin.str,111,3718,3739,2,,ANY
+90194313295,LITERAL,1,,,"r""^\\d{10,20}$""",26,__builtin.str,114,3805,3818,2,,ANY
+90194313296,LITERAL,-1,,,"""""""Register a new user and save to file.""""""",5,__builtin.str,119,3935,3975,1,,ANY
+90194313297,LITERAL,1,,,"""\\n── Register ──────────────────────────────────""",11,__builtin.str,120,3989,4038,1,,ANY
+90194313298,LITERAL,1,,,"""Full name: """,24,__builtin.str,121,4064,4076,1,,ANY
+90194313299,LITERAL,1,,,"""Email: """,24,__builtin.str,122,4102,4110,1,,ANY
+90194313300,LITERAL,3,,,"""Enter a valid email address.""",61,__builtin.str,122,4139,4168,3,,ANY
+90194313301,LITERAL,1,,,"""Phone: """,24,__builtin.str,123,4194,4202,1,,ANY
+90194313302,LITERAL,3,,,"""Enter a valid phone number (7-15 digits).""",61,__builtin.str,123,4231,4273,3,,ANY
+90194313303,LITERAL,1,,,"""National ID: """,24,__builtin.str,124,4299,4313,1,,ANY
+90194313304,LITERAL,3,,,"""National ID must be 10-20 digits.""",61,__builtin.str,124,4336,4370,3,,ANY
+90194313305,LITERAL,1,,,"""Password (min 6 chars): """,24,__builtin.str,125,4396,4421,1,,ANY
+90194313306,LITERAL,2,,,6,44,__builtin.int,126,4467,4468,2,,ANY
+90194313307,LITERAL,3,,,"""Password must be at least 6 characters.""",47,__builtin.str,126,4470,4510,3,,ANY
+90194313308,LITERAL,2,,,"""email""",14,__builtin.str,131,4590,4596,2,,ANY
+90194313309,LITERAL,1,,,"""An account with that email already exists.""",15,__builtin.str,132,4639,4682,1,,ANY
+90194313310,LITERAL,2,,,"""id""",22,__builtin.str,135,4722,4725,2,,ANY
+90194313311,LITERAL,-1,,default,0,53,__builtin.int,135,4753,4754,2,,ANY
+90194313312,LITERAL,2,,,1,58,__builtin.int,135,4758,4759,2,,ANY
+90194313313,LITERAL,1,,,16,26,__builtin.int,136,4785,4787,2,,ANY
+90194313314,LITERAL,2,,,"""id""",9,__builtin.str,138,4822,4825,2,,ANY
+90194313315,LITERAL,2,,,"""name""",9,__builtin.str,139,4854,4859,2,,ANY
+90194313316,LITERAL,2,,,"""email""",9,__builtin.str,140,4883,4889,2,,ANY
+90194313317,LITERAL,2,,,"""password""",9,__builtin.str,141,4913,4922,2,,ANY
+90194313318,LITERAL,2,,,"""salt""",9,__builtin.str,142,4959,4964,2,,ANY
+90194313319,LITERAL,2,,,"""phone""",9,__builtin.str,143,4988,4994,2,,ANY
+90194313320,LITERAL,2,,,"""national_id""",9,__builtin.str,144,5018,5030,2,,ANY
+90194313321,LITERAL,1,,,Registered successfully! Your user ID is ,13,__builtin.str,147,5094,5135,1,,ANY
+90194313322,LITERAL,3,,,.,63,__builtin.str,147,5144,5145,3,,ANY
+90194313323,LITERAL,-1,,,"""""""Authenticate the admin; allow up to MAX_LOGIN_ATTEMPTS tries.""""""",5,__builtin.str,151,5173,5237,1,,ANY
+90194313324,LITERAL,1,,,"""\\n── Admin Login ───────────────────────────────""",11,__builtin.str,152,5251,5300,1,,ANY
+90194313325,LITERAL,1,,,"""Admin password: """,26,__builtin.str,154,5381,5398,1,,ANY
+90194313326,LITERAL,1,,,"""is_admin""",52,__builtin.str,156,5489,5498,2,,ANY
+90194313327,LITERAL,2,,,None,66,,156,5503,5507,2,,ANY
+90194313328,LITERAL,1,,,"""salt""",30,__builtin.str,158,5556,5561,2,,ANY
+90194313329,LITERAL,2,,,"""""",38,__builtin.str,158,5564,5565,3,,ANY
+90194313330,LITERAL,2,,,"""password""",22,__builtin.str,159,5589,5598,2,,ANY
+90194313331,LITERAL,1,,,"""Login successful.""",23,__builtin.str,160,5649,5667,1,,ANY
+90194313332,LITERAL,1,,,True,24,__builtin.int,161,5693,5697,1,,__builtin.bool
+90194313333,LITERAL,1,,,Wrong password. (,17,__builtin.str,162,5714,5731,1,,ANY
+90194313334,LITERAL,3,,,/,43,__builtin.str,162,5740,5741,3,,ANY
+90194313335,LITERAL,5,,,),64,__builtin.str,162,5761,5762,5,,ANY
+90194313336,LITERAL,1,,,1,26,__builtin.int,153,5328,5329,1,,ANY
+90194313337,LITERAL,2,,,1,50,__builtin.int,153,5352,5353,2,,ANY
+90194313338,LITERAL,1,,,"""Too many failed attempts.""",11,__builtin.str,163,5775,5801,1,,ANY
+90194313339,LITERAL,1,,,False,12,__builtin.int,164,5815,5820,1,,__builtin.bool
+90194313340,LITERAL,-1,,,"""""""Authenticate a regular user. Returns user dict on success, None on failure.""""""",5,__builtin.str,168,5845,5923,1,,ANY
+90194313341,LITERAL,1,,,"""\\n── User Login ────────────────────────────────""",11,__builtin.str,169,5937,5986,1,,ANY
+90194313342,LITERAL,1,,,"""Email: """,26,__builtin.str,171,6067,6075,1,,ANY
+90194313343,LITERAL,1,,,"""Password: """,26,__builtin.str,172,6111,6122,1,,ANY
+90194313344,LITERAL,1,,,"""is_admin""",29,__builtin.str,176,6306,6315,2,,ANY
+90194313345,LITERAL,2,,,"""email""",50,__builtin.str,176,6327,6333,2,,ANY
+90194313346,LITERAL,1,,,"""salt""",33,__builtin.str,177,6378,6383,2,,ANY
+90194313347,LITERAL,2,,,"""""",41,__builtin.str,177,6386,6387,3,,ANY
+90194313348,LITERAL,2,,,"""password""",25,__builtin.str,178,6414,6423,2,,ANY
+90194313349,LITERAL,1,,,"Welcome, ",29,__builtin.str,179,6480,6489,1,,ANY
+90194313350,LITERAL,2,,,'name',44,__builtin.str,179,6495,6500,2,,ANY
+90194313351,LITERAL,3,,,!,52,__builtin.str,179,6503,6504,3,,ANY
+90194313352,LITERAL,1,,,Wrong email or password. (,17,__builtin.str,181,6555,6581,1,,ANY
+90194313353,LITERAL,3,,,/,52,__builtin.str,181,6590,6591,3,,ANY
+90194313354,LITERAL,5,,,),73,__builtin.str,181,6611,6612,5,,ANY
+90194313355,LITERAL,1,,,1,26,__builtin.int,170,6014,6015,1,,ANY
+90194313356,LITERAL,2,,,1,50,__builtin.int,170,6038,6039,2,,ANY
+90194313357,LITERAL,1,,,"""Too many failed attempts.""",11,__builtin.str,182,6625,6651,1,,ANY
+90194313358,LITERAL,1,,,None,12,,183,6665,6669,1,,__builtin.None
+90194313359,LITERAL,-1,,,"""""""Sub-menu: add or remove a vaccination center.""""""",5,__builtin.str,188,6785,6833,1,,ANY
+90194313360,LITERAL,1,,,"""\\n1. Add a new center""",11,__builtin.str,189,6847,6869,1,,ANY
+90194313361,LITERAL,1,,,"""2. Remove an existing center""",11,__builtin.str,190,6882,6911,1,,ANY
+90194313362,LITERAL,1,,,"""3. Back""",11,__builtin.str,191,6924,6932,1,,ANY
+90194313363,LITERAL,1,,,"""Choice (1-3): """,20,__builtin.str,192,6954,6969,1,,ANY
+90194313364,LITERAL,2,,,"""1""",18,__builtin.str,194,6990,6992,2,,ANY
+90194313365,LITERAL,1,,,"""Center name: """,25,__builtin.str,195,7019,7033,1,,ANY
+90194313366,LITERAL,1,,,"""Address: """,25,__builtin.str,196,7060,7070,1,,ANY
+90194313367,LITERAL,1,,,""",""",73,__builtin.str,198,7175,7177,2,,ANY
+90194313368,LITERAL,1,,,"""Vaccines (comma-separated): """,35,__builtin.str,198,7137,7166,1,,ANY
+90194313369,LITERAL,1,,,"""You must enter at least one vaccine.""",19,__builtin.str,201,7257,7294,1,,ANY
+90194313370,LITERAL,2,,,"""id""",26,__builtin.str,204,7379,7382,2,,ANY
+90194313371,LITERAL,-1,,default,0,59,__builtin.int,204,7412,7413,2,,ANY
+90194313372,LITERAL,2,,,1,64,__builtin.int,204,7417,7418,2,,ANY
+90194313373,LITERAL,2,,,"""id""",25,__builtin.str,205,7443,7446,2,,ANY
+90194313374,LITERAL,2,,,"""name""",39,__builtin.str,205,7457,7462,2,,ANY
+90194313375,LITERAL,2,,,"""address""",26,__builtin.str,206,7496,7504,2,,ANY
+90194313376,LITERAL,2,,,"""vaccines""",46,__builtin.str,206,7516,7525,2,,ANY
+90194313377,LITERAL,1,,,Center ',17,__builtin.str,208,7592,7600,1,,ANY
+90194313378,LITERAL,3,,,' added with ID ,31,__builtin.str,208,7606,7622,3,,ANY
+90194313379,LITERAL,5,,,.,55,__builtin.str,208,7630,7631,5,,ANY
+90194313380,LITERAL,2,,,"""2""",20,__builtin.str,210,7654,7656,2,,ANY
+90194313381,LITERAL,1,,,"""No centers on file.""",19,__builtin.str,213,7739,7759,1,,ANY
+90194313382,LITERAL,1,,,"""Enter center ID to remove: """,30,__builtin.str,215,7810,7838,1,,ANY
+90194313383,LITERAL,2,,,"""id""",51,__builtin.str,216,7891,7894,2,,ANY
+90194313384,LITERAL,2,,,None,72,,216,7912,7916,2,,ANY
+90194313385,LITERAL,1,,,"""Center not found.""",19,__builtin.str,218,7959,7977,1,,ANY
+90194313386,LITERAL,2,,,"""center_id""",18,__builtin.str,223,8131,8141,2,,ANY
+90194313387,LITERAL,1,,,"""Cannot remove center: Active reservations are linked to it.""",19,__builtin.str,224,8199,8259,1,,ANY
+90194313388,LITERAL,1,,,Remove ',27,__builtin.str,227,8308,8316,1,,ANY
+90194313389,LITERAL,2,,,'name',43,__builtin.str,227,8324,8329,2,,ANY
+90194313390,LITERAL,3,,,'?,51,__builtin.str,227,8332,8334,3,,ANY
+90194313391,LITERAL,1,,,"""Cancelled.""",19,__builtin.str,228,8356,8367,1,,ANY
+90194313392,LITERAL,2,,,"""id""",54,__builtin.str,230,8442,8445,2,,ANY
+90194313393,LITERAL,1,,,"""Center removed.""",15,__builtin.str,231,8477,8493,1,,ANY
+90194313394,LITERAL,2,,,"""3""",20,__builtin.str,233,8516,8518,2,,ANY
+90194313395,LITERAL,1,,,"""Invalid choice.""",15,__builtin.str,236,8560,8576,1,,ANY
+90194313396,LITERAL,-1,,,"""""""Search for a vaccination center by name (case-insensitive substring match).""""""",5,__builtin.str,240,8614,8692,1,,ANY
+90194313397,LITERAL,1,,,"""Enter center name to search: """,21,__builtin.str,241,8716,8746,1,,ANY
+90194313398,LITERAL,2,,,"""name""",49,__builtin.str,243,8847,8852,2,,ANY
+90194313399,LITERAL,1,,,\\nFound ,17,__builtin.str,246,8895,8903,1,,ANY
+90194313400,LITERAL,3,,, center(s):,37,__builtin.str,246,8915,8926,3,,ANY
+90194313401,LITERAL,1,,,\\nID:       ,21,__builtin.str,248,8973,8985,1,,ANY
+90194313402,LITERAL,2,,,'id',36,__builtin.str,248,8988,8991,2,,ANY
+90194313403,LITERAL,1,,,Name:     ,21,__builtin.str,249,9017,9027,1,,ANY
+90194313404,LITERAL,2,,,'name',34,__builtin.str,249,9030,9035,2,,ANY
+90194313405,LITERAL,1,,,Address:  ,21,__builtin.str,250,9061,9071,1,,ANY
+90194313406,LITERAL,2,,,'address',34,__builtin.str,250,9074,9082,2,,ANY
+90194313407,LITERAL,1,,,Vaccines: ,21,__builtin.str,251,9108,9118,1,,ANY
+90194313408,LITERAL,2,,,'vaccines',44,__builtin.str,251,9131,9140,2,,ANY
+90194313409,LITERAL,2,,,"', '",32,__builtin.str,251,9119,9122,2,,__builtin.str
+90194313410,LITERAL,1,,,"""-""",19,__builtin.str,252,9165,9167,1,,ANY
+90194313411,LITERAL,2,,,20,25,__builtin.int,252,9171,9173,2,,ANY
+90194313412,LITERAL,1,,,"""No center found matching that name.""",15,__builtin.str,254,9199,9235,1,,ANY
+90194313413,LITERAL,-1,,,"""""""Print every registered user and their reservation status.""""""",5,__builtin.str,258,9279,9339,1,,ANY
+90194313414,LITERAL,1,,,"""No users registered yet.""",15,__builtin.str,264,9496,9521,1,,ANY
+90194313415,LITERAL,2,,,"""id""",21,__builtin.str,267,9560,9563,2,,ANY
+90194313416,LITERAL,2,,,"""name""",30,__builtin.str,267,9569,9574,2,,ANY
+90194313417,LITERAL,1,,,"""\\n── Registered Users ──────────────────────────""",11,__builtin.str,269,9606,9655,1,,ANY
+90194313418,LITERAL,1,,,ID: ,17,__builtin.str,271,9694,9698,1,,ANY
+90194313419,LITERAL,2,,,'id',24,__builtin.str,271,9701,9704,2,,ANY
+90194313420,LITERAL,3,,,  |  Name: ,30,__builtin.str,271,9707,9718,3,,ANY
+90194313421,LITERAL,2,,,'name',44,__builtin.str,271,9721,9726,2,,ANY
+90194313422,LITERAL,5,,,  |  ,52,__builtin.str,271,9729,9734,5,,ANY
+90194313423,LITERAL,1,,,Email: ,17,__builtin.str,272,9752,9759,1,,ANY
+90194313424,LITERAL,2,,,'email',27,__builtin.str,272,9762,9768,2,,ANY
+90194313425,LITERAL,3,,,  |  Phone: ,36,__builtin.str,272,9771,9783,3,,ANY
+90194313426,LITERAL,2,,,'phone',51,__builtin.str,272,9786,9792,2,,ANY
+90194313427,LITERAL,2,,,"""user_id""",50,__builtin.str,274,9848,9856,2,,ANY
+90194313428,LITERAL,2,,,"""id""",66,__builtin.str,274,9864,9867,2,,ANY
+90194313429,LITERAL,2,,,None,74,,274,9872,9876,2,,ANY
+90194313430,LITERAL,2,,,"""center_id""",46,__builtin.str,276,9939,9949,2,,ANY
+90194313431,LITERAL,2,,,"""Unknown""",60,__builtin.str,276,9953,9961,3,,ANY
+90194313432,LITERAL,1,,,"""date""",35,__builtin.str,277,9998,10003,2,,ANY
+90194313433,LITERAL,2,,,"""pending""",46,__builtin.str,277,10009,10017,2,,ANY
+90194313434,LITERAL,1,,,   ↳ Reservation: ,21,__builtin.str,278,10039,10057,1,,ANY
+90194313435,LITERAL,2,,,'vaccine',44,__builtin.str,278,10062,10070,2,,ANY
+90194313436,LITERAL,3,,, at ,55,__builtin.str,278,10073,10077,3,,ANY
+90194313437,LITERAL,2,,, | Date: ,34,__builtin.str,279,10112,10121,2,,ANY
+90194313438,LITERAL,1,,,"""   ↳ No reservation""",19,__builtin.str,281,10166,10186,1,,ANY
+90194313439,LITERAL,1,,,"""-""",15,__builtin.str,282,10203,10205,1,,ANY
+90194313440,LITERAL,2,,,46,21,__builtin.int,282,10209,10211,2,,ANY
+90194313441,LITERAL,-1,,,"""""""Assign a vaccination date (automatically or manually) for a user's reservation.""""""",5,__builtin.str,286,10245,10327,1,,ANY
+90194313442,LITERAL,1,,,"""Enter user ID: """,29,__builtin.str,288,10403,10419,1,,ANY
+90194313443,LITERAL,2,,,"""user_id""",46,__builtin.str,290,10468,10476,2,,ANY
+90194313444,LITERAL,2,,,None,70,,290,10492,10496,2,,ANY
+90194313445,LITERAL,1,,,"""No reservation found for that user.""",15,__builtin.str,292,10528,10564,1,,ANY
+90194313446,LITERAL,2,,,"""date""",12,__builtin.str,295,10594,10599,2,,ANY
+90194313447,LITERAL,1,,,This user already has an assigned date: ,17,__builtin.str,296,10619,10659,1,,ANY
+90194313448,LITERAL,2,,,'date',62,__builtin.str,296,10664,10669,2,,ANY
+90194313449,LITERAL,1,,,"""Choose date assignment option:""",11,__builtin.str,299,10701,10732,1,,ANY
+90194313450,LITERAL,1,,,"""1. Automatically assign date (10-30 days from today)""",11,__builtin.str,300,10745,10798,1,,ANY
+90194313451,LITERAL,1,,,"""2. Manually enter date (YYYY-MM-DD)""",11,__builtin.str,301,10811,10847,1,,ANY
+90194313452,LITERAL,1,,,"""Choice (1-2): """,20,__builtin.str,302,10869,10884,1,,ANY
+90194313453,LITERAL,2,,,"""1""",18,__builtin.str,304,10913,10915,2,,ANY
+90194313454,LITERAL,1,,,10,41,__builtin.int,305,10958,10960,2,,ANY
+90194313455,LITERAL,2,,,30,45,__builtin.int,305,10962,10964,3,,ANY
+90194313456,LITERAL,1,,,"""%Y-%m-%d""",92,__builtin.str,306,11057,11066,2,,ANY
+90194313457,LITERAL,2,,,"""2""",20,__builtin.str,307,11088,11090,2,,ANY
+90194313458,LITERAL,1,,,"""Enter date (YYYY-MM-DD): """,36,__builtin.str,308,11128,11154,1,,ANY
+90194313459,LITERAL,1,,,"""Invalid choice. Operation cancelled.""",15,__builtin.str,310,11181,11218,1,,ANY
+90194313460,LITERAL,2,,,"""date""",9,__builtin.str,313,11245,11250,2,,ANY
+90194313461,LITERAL,1,,,Reservation accepted! Assigned date: ,13,__builtin.str,315,11327,11364,1,,ANY
+90194313462,LITERAL,-1,,,"""""""Display all vaccination centers.""""""",5,__builtin.str,320,11489,11524,1,,ANY
+90194313463,LITERAL,1,,,"""No vaccination centers available yet.""",15,__builtin.str,323,11596,11634,1,,ANY
+90194313464,LITERAL,1,,,"""\\n── Vaccination Centers ───────────────────────""",11,__builtin.str,325,11662,11711,1,,ANY
+90194313465,LITERAL,1,,,ID: ,17,__builtin.str,327,11752,11756,1,,ANY
+90194313466,LITERAL,2,,,'id',24,__builtin.str,327,11759,11762,2,,ANY
+90194313467,LITERAL,3,,,  |  ,30,__builtin.str,327,11765,11770,3,,ANY
+90194313468,LITERAL,2,,,'name',38,__builtin.str,327,11773,11778,2,,ANY
+90194313469,LITERAL,5,,,  |  ,46,__builtin.str,327,11781,11786,5,,ANY
+90194313470,LITERAL,2,,,'address',54,__builtin.str,327,11789,11797,2,,ANY
+90194313471,LITERAL,1,,,   Vaccines: ,17,__builtin.str,328,11819,11832,1,,ANY
+90194313472,LITERAL,2,,,'vaccines',43,__builtin.str,328,11845,11854,2,,ANY
+90194313473,LITERAL,2,,,"', '",31,__builtin.str,328,11833,11836,2,,__builtin.str
+90194313474,LITERAL,1,,,"""-""",11,__builtin.str,329,11871,11873,1,,ANY
+90194313475,LITERAL,2,,,46,17,__builtin.int,329,11877,11879,2,,ANY
+90194313476,LITERAL,-1,,,"""""""Allow the user to reserve a vaccination slot.""""""",5,__builtin.str,333,11918,11966,1,,ANY
+90194313477,LITERAL,2,,,"""user_id""",14,__builtin.str,337,12059,12067,2,,ANY
+90194313478,LITERAL,2,,,"""id""",33,__builtin.str,337,12078,12081,2,,ANY
+90194313479,LITERAL,1,,,"""You already have a reservation. View it with option 3.""",15,__builtin.str,338,12122,12177,1,,ANY
+90194313480,LITERAL,1,,,"""Center ID: """,26,__builtin.str,346,12310,12322,1,,ANY
+90194313481,LITERAL,2,,,"""id""",47,__builtin.str,347,12371,12374,2,,ANY
+90194313482,LITERAL,2,,,None,68,,347,12392,12396,2,,ANY
+90194313483,LITERAL,1,,,"""Center not found.""",15,__builtin.str,350,12432,12450,1,,ANY
+90194313484,LITERAL,1,,,Available vaccines: ,13,__builtin.str,353,12481,12501,1,,ANY
+90194313485,LITERAL,2,,,'vaccines',51,__builtin.str,353,12519,12528,2,,ANY
+90194313486,LITERAL,2,,,"', '",34,__builtin.str,353,12502,12505,2,,__builtin.str
+90194313487,LITERAL,1,,,"""Vaccine name: """,20,__builtin.str,354,12554,12569,1,,ANY
+90194313488,LITERAL,2,,,"""vaccines""",39,__builtin.str,357,12640,12649,2,,ANY
+90194313489,LITERAL,2,,,None,85,,357,12686,12690,2,,ANY
+90194313490,LITERAL,1,,,"""That vaccine is not available at this center.""",15,__builtin.str,359,12726,12772,1,,ANY
+90194313491,LITERAL,2,,,"""user_id""",9,__builtin.str,363,12825,12833,2,,ANY
+90194313492,LITERAL,2,,,"""id""",27,__builtin.str,363,12843,12846,2,,ANY
+90194313493,LITERAL,2,,,"""center_id""",9,__builtin.str,364,12858,12868,2,,ANY
+90194313494,LITERAL,2,,,"""vaccine""",9,__builtin.str,365,12890,12898,2,,ANY
+90194313495,LITERAL,2,,,"""date""",9,__builtin.str,366,12955,12960,2,,ANY
+90194313496,LITERAL,2,,,None,22,,366,12968,12972,2,,__builtin.None
+90194313497,LITERAL,1,,,"""Reservation made! The admin will assign your date.""",11,__builtin.str,369,13034,13085,1,,ANY
+90194313498,LITERAL,-1,,,"""""""Show the user their assigned vaccination date.""""""",5,__builtin.str,373,13127,13176,1,,ANY
+90194313499,LITERAL,2,,,"""user_id""",46,__builtin.str,375,13269,13277,2,,ANY
+90194313500,LITERAL,2,,,"""id""",65,__builtin.str,375,13288,13291,2,,ANY
+90194313501,LITERAL,2,,,None,73,,375,13296,13300,2,,ANY
+90194313502,LITERAL,1,,,"""You have no reservation yet.""",15,__builtin.str,378,13333,13362,1,,ANY
+90194313503,LITERAL,2,,,"""date""",14,__builtin.str,379,13378,13383,2,,ANY
+90194313504,LITERAL,2,,,"""name""",16,__builtin.str,382,13472,13477,2,,ANY
+90194313505,LITERAL,2,,,"""id""",46,__builtin.str,382,13502,13505,2,,ANY
+90194313506,LITERAL,2,,,"""center_id""",59,__builtin.str,382,13515,13525,2,,ANY
+90194313507,LITERAL,2,,,"""Unknown""",13,__builtin.str,383,13542,13550,2,,ANY
+90194313508,LITERAL,1,,,Your vaccination: ,17,__builtin.str,385,13578,13596,1,,ANY
+90194313509,LITERAL,2,,,'vaccine',40,__builtin.str,385,13601,13609,2,,ANY
+90194313510,LITERAL,3,,, at ,51,__builtin.str,385,13612,13616,3,,ANY
+90194313511,LITERAL,5,,, ,68,__builtin.str,385,13629,13630,5,,ANY
+90194313512,LITERAL,1,,,on ,17,__builtin.str,386,13648,13651,1,,ANY
+90194313513,LITERAL,2,,,'date',25,__builtin.str,386,13656,13661,2,,ANY
+90194313514,LITERAL,3,,,.,33,__builtin.str,386,13664,13665,3,,ANY
+90194313515,LITERAL,1,,,"""Your reservation is pending — the admin hasn't set a date yet.""",15,__builtin.str,388,13692,13755,1,,ANY
+90194313516,LITERAL,-1,,,True,11,__builtin.int,393,13869,13873,1,,ANY
+90194313517,LITERAL,1,,,"""\\n── Admin Menu ────────────────────────────────""",15,__builtin.str,394,13889,13938,1,,ANY
+90194313518,LITERAL,1,,,"""1. Add / Remove a vaccination center""",15,__builtin.str,395,13955,13992,1,,ANY
+90194313519,LITERAL,1,,,"""2. Search for a center by name""",15,__builtin.str,396,14009,14040,1,,ANY
+90194313520,LITERAL,1,,,"""3. List all users and reservations""",15,__builtin.str,397,14057,14092,1,,ANY
+90194313521,LITERAL,1,,,"""4. Accept a reservation and assign a date""",15,__builtin.str,398,14109,14151,1,,ANY
+90194313522,LITERAL,1,,,"""5. Logout""",15,__builtin.str,399,14168,14178,1,,ANY
+90194313523,LITERAL,1,,,"""Choice (1-5): """,24,__builtin.str,400,14204,14219,1,,ANY
+90194313524,LITERAL,2,,,"""1""",24,__builtin.str,402,14246,14248,2,,ANY
+90194313525,LITERAL,2,,,"""2""",24,__builtin.str,403,14297,14299,2,,ANY
+90194313526,LITERAL,2,,,"""3""",24,__builtin.str,404,14349,14351,2,,ANY
+90194313527,LITERAL,2,,,"""4""",24,__builtin.str,405,14407,14409,2,,ANY
+90194313528,LITERAL,2,,,"""5""",24,__builtin.str,406,14456,14458,2,,ANY
+90194313529,LITERAL,1,,,"""Logged out.""",19,__builtin.str,407,14479,14491,1,,ANY
+90194313530,LITERAL,1,,,"""Invalid choice.""",19,__builtin.str,410,14544,14560,1,,ANY
+90194313531,LITERAL,-1,,,True,11,__builtin.int,414,14596,14600,1,,ANY
+90194313532,LITERAL,1,,,\\n── User Menu (,17,__builtin.str,415,14618,14634,1,,ANY
+90194313533,LITERAL,2,,,'name',39,__builtin.str,415,14640,14645,2,,ANY
+90194313534,LITERAL,3,,,) ────────────────────,47,__builtin.str,415,14648,14670,3,,ANY
+90194313535,LITERAL,1,,,"""1. View vaccination centers""",15,__builtin.str,416,14687,14715,1,,ANY
+90194313536,LITERAL,1,,,"""2. Reserve a vaccination""",15,__builtin.str,417,14732,14757,1,,ANY
+90194313537,LITERAL,1,,,"""3. View my vaccination date""",15,__builtin.str,418,14774,14802,1,,ANY
+90194313538,LITERAL,1,,,"""4. Logout""",15,__builtin.str,419,14819,14829,1,,ANY
+90194313539,LITERAL,1,,,"""Choice (1-4): """,24,__builtin.str,420,14855,14870,1,,ANY
+90194313540,LITERAL,2,,,"""1""",24,__builtin.str,422,14897,14899,2,,ANY
+90194313541,LITERAL,2,,,"""2""",24,__builtin.str,423,14940,14942,2,,ANY
+90194313542,LITERAL,2,,,"""3""",24,__builtin.str,424,14994,14996,2,,ANY
+90194313543,LITERAL,2,,,"""4""",24,__builtin.str,425,15050,15052,2,,ANY
+90194313544,LITERAL,1,,,"""Logged out.""",19,__builtin.str,426,15073,15085,1,,ANY
+90194313545,LITERAL,1,,,"""Invalid choice.""",19,__builtin.str,429,15138,15154,1,,ANY
+90194313546,LITERAL,-1,,,True,11,__builtin.int,435,15322,15326,1,,ANY
+90194313547,LITERAL,1,,,"""\\n══ Vaccination Scheduling System ══════════════""",15,__builtin.str,436,15342,15392,1,,ANY
+90194313548,LITERAL,1,,,"""1. Register""",15,__builtin.str,437,15409,15421,1,,ANY
+90194313549,LITERAL,1,,,"""2. Login as admin""",15,__builtin.str,438,15438,15456,1,,ANY
+90194313550,LITERAL,1,,,"""3. Login as user""",15,__builtin.str,439,15473,15490,1,,ANY
+90194313551,LITERAL,1,,,"""4. Exit""",15,__builtin.str,440,15507,15515,1,,ANY
+90194313552,LITERAL,1,,,"""Choice (1-4): """,24,__builtin.str,441,15541,15556,1,,ANY
+90194313553,LITERAL,2,,,"""1""",22,__builtin.str,443,15581,15583,2,,ANY
+90194313554,LITERAL,2,,,"""2""",24,__builtin.str,445,15637,15639,2,,ANY
+90194313555,LITERAL,2,,,"""3""",24,__builtin.str,448,15724,15726,2,,ANY
+90194313556,LITERAL,2,,,"""4""",24,__builtin.str,452,15837,15839,2,,ANY
+90194313557,LITERAL,1,,,"""Goodbye!""",19,__builtin.str,453,15860,15869,1,,ANY
+90194313558,LITERAL,1,,,"""Invalid choice.""",19,__builtin.str,456,15922,15938,1,,ANY
+90194313559,LITERAL,2,,,"""__main__""",16,__builtin.str,459,15958,15967,2,,ANY
+90194313560,LITERAL,-1,,,"""""""
+Lab 01 - Static Analysis using the Python ast module
+Three examples, each built from real logic inside Project.py.
+""""""",1,__builtin.str,1,0,119,2,,ANY
+90194313561,LITERAL,1,,,,1,__builtin.str,6,124,134,1,,ANY
+90194313562,LITERAL,2,,,ast,1,__builtin.str,6,124,134,2,,ANY
+90194313563,LITERAL,1,,,"""=""",7,__builtin.str,11,386,388,1,,ANY
+90194313564,LITERAL,2,,,60,13,__builtin.int,11,392,394,2,,ANY
+90194313565,LITERAL,1,,,"""EXAMPLE 1: Simple Expression (ID assignment)""",7,__builtin.str,12,402,447,1,,ANY
+90194313566,LITERAL,1,,,"""=""",7,__builtin.str,13,456,458,1,,ANY
+90194313567,LITERAL,2,,,60,13,__builtin.int,13,462,464,2,,ANY
+90194313568,LITERAL,2,,,"""new_id = max_id + 1""",9,__builtin.str,14,474,494,2,,__builtin.str
+90194313569,LITERAL,-1,,indent,2,30,__builtin.int,16,550,551,3,,ANY
+90194313570,LITERAL,1,,,"""\\n""",7,__builtin.str,22,742,745,1,,ANY
+90194313571,LITERAL,1,,,"""=""",14,__builtin.str,22,749,751,1,,ANY
+90194313572,LITERAL,2,,,60,20,__builtin.int,22,755,757,2,,ANY
+90194313573,LITERAL,1,,,"""EXAMPLE 2: Loop and List (vaccine listing)""",7,__builtin.str,23,765,808,1,,ANY
+90194313574,LITERAL,1,,,"""=""",7,__builtin.str,24,817,819,1,,ANY
+90194313575,LITERAL,2,,,60,13,__builtin.int,24,823,825,2,,ANY
+90194313576,LITERAL,2,,,"""""""
+vaccines = [""Pfizer"", ""Moderna""]
+name = ""Center A""
+for v in vaccines:
+    print(""{} offers {}"".format(name, v))
+""""""",9,__builtin.str,25,835,951,2,,__builtin.str
+90194313577,LITERAL,-1,,indent,2,30,__builtin.int,32,1009,1010,3,,ANY
+90194313578,LITERAL,1,,,"""\\n""",7,__builtin.str,37,1146,1149,1,,ANY
+90194313579,LITERAL,1,,,"""=""",14,__builtin.str,37,1153,1155,1,,ANY
+90194313580,LITERAL,2,,,60,20,__builtin.int,37,1159,1161,2,,ANY
+90194313581,LITERAL,1,,,"""EXAMPLE 3: Function Definition (_hash from Project.py)""",7,__builtin.str,38,1169,1224,1,,ANY
+90194313582,LITERAL,1,,,"""=""",7,__builtin.str,39,1233,1235,1,,ANY
+90194313583,LITERAL,2,,,60,13,__builtin.int,39,1239,1241,2,,ANY
+90194313584,LITERAL,2,,,"""""""
+def _hash(password, salt):
+    return hashlib.sha256((password + salt).encode()).hexdigest()
+
+hashed = _hash(""mypassword"", ""somesalt"")
+print(hashed)
+""""""",9,__builtin.str,40,1251,1404,2,,__builtin.str
+90194313585,LITERAL,-1,,indent,2,30,__builtin.int,48,1462,1463,3,,ANY
+90194313586,LITERAL,-1,,,"""""""
+Lab 01 - Dynamic Analysis using the Scalene Profiler
+Generates a memory- and CPU-intensive workload by exercising real
+functions from the Vaccination Scheduling System (Project.py):
+_hash(), _valid_email(), _valid_phone(), _valid_national_id()
+""""""",1,__builtin.str,1,0,248,6,,ANY
+90194313587,LITERAL,1,,,Project,1,__builtin.str,8,253,326,1,,ANY
+90194313588,LITERAL,2,,,_hash,1,__builtin.str,8,253,326,2,,ANY
+90194313589,LITERAL,1,,,Project,1,__builtin.str,8,253,326,1,,ANY
+90194313590,LITERAL,2,,,_valid_email,1,__builtin.str,8,253,326,2,,ANY
+90194313591,LITERAL,1,,,Project,1,__builtin.str,8,253,326,1,,ANY
+90194313592,LITERAL,2,,,_valid_phone,1,__builtin.str,8,253,326,2,,ANY
+90194313593,LITERAL,1,,,Project,1,__builtin.str,8,253,326,1,,ANY
+90194313594,LITERAL,2,,,_valid_national_id,1,__builtin.str,8,253,326,2,,ANY
+90194313595,LITERAL,-1,,,"""""""Simulates bulk user registration validation + password hashing.""""""",5,__builtin.str,12,361,427,1,,ANY
+90194313596,LITERAL,1,,,user,19,__builtin.str,15,487,491,1,,ANY
+90194313597,LITERAL,3,,,@example.com,26,__builtin.str,15,494,506,3,,ANY
+90194313598,LITERAL,1,,,+2010,19,__builtin.str,16,526,531,1,,ANY
+90194313599,LITERAL,2,,,10000000,29,__builtin.int,16,536,544,2,,ANY
+90194313600,LITERAL,1,,,10000000000000,27,__builtin.int,17,577,591,1,,ANY
+90194313601,LITERAL,1,,,password,22,__builtin.str,18,618,626,1,,ANY
+90194313602,LITERAL,2,,,"""demo_salt""",38,__builtin.str,21,761,771,2,,ANY
+90194313603,LITERAL,2,,,"""id""",17,__builtin.str,23,817,820,2,,ANY
+90194313604,LITERAL,2,,,"""email""",17,__builtin.str,24,842,848,2,,ANY
+90194313605,LITERAL,2,,,"""phone""",17,__builtin.str,25,874,880,2,,ANY
+90194313606,LITERAL,2,,,"""national_id""",17,__builtin.str,26,906,918,2,,ANY
+90194313607,LITERAL,2,,,"""password""",17,__builtin.str,27,950,959,2,,ANY
+90194313608,LITERAL,-1,,,"""""""Simulates a post-processing pass over all validated users.""""""",5,__builtin.str,33,1034,1095,1,,ANY
+90194313609,LITERAL,2,,,"""password""",15,__builtin.str,34,1113,1122,2,,ANY
+90194313610,LITERAL,-1,,,"""""""Simulates a reporting pass, similar to list_users_and_reservations().""""""",5,__builtin.str,38,1183,1255,1,,ANY
+90194313611,LITERAL,1,,,200000,29,__builtin.int,42,1311,1317,1,,ANY
+90194313612,LITERAL,1,,,Total users generated: ,9,__builtin.str,46,1392,1415,1,,ANY
+90194313613,LITERAL,1,,,Sample processed hash: ,9,__builtin.str,47,1433,1456,1,,ANY
+90194313614,LITERAL,2,,,0,43,__builtin.int,47,1467,1468,2,,ANY
+90194313615,LITERAL,-1,,,"""""""
+Lab 01 - Dynamic Analysis using sys.settrace()
+Traces real functions from the Vaccination Scheduling System project:
+_valid_email() and _hash() from Project.py
+""""""",1,__builtin.str,1,0,164,2,,ANY
+90194313616,LITERAL,1,,,,1,__builtin.str,7,169,178,1,,ANY
+90194313617,LITERAL,2,,,os,1,__builtin.str,7,169,178,2,,ANY
+90194313618,LITERAL,1,,,,1,__builtin.str,8,179,189,1,,ANY
+90194313619,LITERAL,2,,,sys,1,__builtin.str,8,179,189,2,,ANY
+90194313620,LITERAL,1,,,Project,1,__builtin.str,9,190,229,1,,ANY
+90194313621,LITERAL,2,,,_valid_email,1,__builtin.str,9,190,229,2,,ANY
+90194313622,LITERAL,1,,,Project,1,__builtin.str,9,190,229,1,,ANY
+90194313623,LITERAL,2,,,_hash,1,__builtin.str,9,190,229,2,,ANY
+90194313624,LITERAL,1,,,"""Project.py""",21,__builtin.str,14,392,403,2,,ANY
+90194313625,LITERAL,1,,,None,16,,22,579,583,1,,__builtin.None
+90194313626,LITERAL,1,,,A ,13,__builtin.str,25,701,703,1,,ANY
+90194313627,LITERAL,3,,, event encountered in ,22,__builtin.str,25,710,732,3,,ANY
+90194313628,LITERAL,5,,,() at line number ,55,__builtin.str,25,743,761,5,,ANY
+90194313629,LITERAL,-1,,,"""""""Mimics the validation step inside register_user() from Project.py.""""""",5,__builtin.str,30,841,910,1,,ANY
+90194313630,LITERAL,2,,,"""demo_salt""",39,__builtin.str,32,987,997,2,,ANY
+90194313631,LITERAL,1,,,"""student@iut-dhaka.edu""",29,__builtin.str,37,1108,1130,1,,ANY
+90194313632,LITERAL,2,,,"""mypassword123""",54,__builtin.str,37,1133,1147,2,,ANY
+90194313633,LITERAL,1,,,None,14,,38,1163,1167,2,,ANY
+90194313634,LITERAL,1,,,"""\\nResult:""",7,__builtin.str,40,1197,1207,1,,ANY

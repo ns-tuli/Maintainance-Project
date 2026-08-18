@@ -1,0 +1,36 @@
+120259084288,METHOD_REF,2,,,def _load(...),1,,23,Project.py:<module>._load,706,1037,2,,Project.py:<module>._load
+120259084289,METHOD_REF,2,,,def _save(...),1,,33,Project.py:<module>._save,1037,1173,2,,Project.py:<module>._save
+120259084290,METHOD_REF,2,,,def init_data(...),1,,38,Project.py:<module>.init_data,1173,2326,2,,Project.py:<module>.init_data
+120259084291,METHOD_REF,2,,,def _ask(...),1,,68,Project.py:<module>._ask,2326,2717,2,,Project.py:<module>._ask
+120259084292,METHOD_REF,2,,,def _ask_int(...),1,,80,Project.py:<module>._ask_int,2717,2948,2,,Project.py:<module>._ask_int
+120259084293,METHOD_REF,2,,,def _ask_date(...),1,,88,Project.py:<module>._ask_date,2948,3254,2,,Project.py:<module>._ask_date
+120259084294,METHOD_REF,2,,,def _confirm(...),1,,98,Project.py:<module>._confirm,3254,3392,2,,Project.py:<module>._confirm
+120259084295,METHOD_REF,2,,,def _hash(...),1,,102,Project.py:<module>._hash,3392,3571,2,,Project.py:<module>._hash
+120259084296,METHOD_REF,2,,,def _valid_email(...),1,,107,Project.py:<module>._valid_email,3571,3668,2,,Project.py:<module>._valid_email
+120259084297,METHOD_REF,2,,,def _valid_phone(...),1,,110,Project.py:<module>._valid_phone,3668,3751,2,,Project.py:<module>._valid_phone
+120259084298,METHOD_REF,2,,,def _valid_national_id(...),1,,113,Project.py:<module>._valid_national_id,3751,3910,2,,Project.py:<module>._valid_national_id
+120259084299,METHOD_REF,2,,,def register_user(...),1,,118,Project.py:<module>.register_user,3910,5150,2,,Project.py:<module>.register_user
+120259084300,METHOD_REF,2,,,def <lambda>0(...),24,,126,Project.py:<module>.register_user.<lambda>0,4447,4468,2,,Project.py:<module>.register_user.<lambda>0
+120259084301,METHOD_REF,2,,,def login_admin(...),1,,150,Project.py:<module>.login_admin,5150,5823,2,,Project.py:<module>.login_admin
+120259084302,METHOD_REF,2,,,def login_user(...),1,,167,Project.py:<module>.login_user,5823,6753,2,,Project.py:<module>.login_user
+120259084303,METHOD_REF,2,,,def add_or_remove_center(...),1,,187,Project.py:<module>.add_or_remove_center,6753,8581,2,,Project.py:<module>.add_or_remove_center
+120259084304,METHOD_REF,2,,,def search_center_by_name(...),1,,239,Project.py:<module>.search_center_by_name,8581,9240,2,,Project.py:<module>.search_center_by_name
+120259084305,METHOD_REF,2,,,def list_users_and_reservations(...),1,,257,Project.py:<module>.list_users_and_reservations,9240,10215,2,,Project.py:<module>.list_users_and_reservations
+120259084306,METHOD_REF,2,,,def accept_reservation(...),1,,285,Project.py:<module>.accept_reservation,10215,11465,2,,Project.py:<module>.accept_reservation
+120259084307,METHOD_REF,2,,,def view_centers(...),1,,319,Project.py:<module>.view_centers,11465,11883,2,,Project.py:<module>.view_centers
+120259084308,METHOD_REF,2,,,def reserve_vaccination(...),1,,332,Project.py:<module>.reserve_vaccination,11883,13090,2,,Project.py:<module>.reserve_vaccination
+120259084309,METHOD_REF,2,,,def view_vaccination_date(...),1,,372,Project.py:<module>.view_vaccination_date,13090,13841,2,,Project.py:<module>.view_vaccination_date
+120259084310,METHOD_REF,2,,,def admin_menu(...),1,,392,Project.py:<module>.admin_menu,13841,14565,2,,Project.py:<module>.admin_menu
+120259084311,METHOD_REF,2,,,def user_menu(...),1,,413,Project.py:<module>.user_menu,14565,15240,2,,Project.py:<module>.user_menu
+120259084312,METHOD_REF,2,,,def main(...),1,,433,Project.py:<module>.main,15240,15943,2,,Project.py:<module>.main
+120259084313,METHOD_REF,2,,,def generate_bulk_users(...),1,,11,scalene_demo.py:<module>.generate_bulk_users,329,1004,2,,scalene_demo.py:<module>.generate_bulk_users
+120259084314,METHOD_REF,2,,,def process_users(...),1,,32,scalene_demo.py:<module>.process_users,1004,1151,2,,scalene_demo.py:<module>.process_users
+120259084315,METHOD_REF,2,,,def calculate_stats(...),1,,37,scalene_demo.py:<module>.calculate_stats,1151,1283,2,,scalene_demo.py:<module>.calculate_stats
+120259084316,METHOD_REF,2,,,def my_tracer(...),1,,19,trace_demo.py:<module>.my_tracer,442,796,2,,trace_demo.py:<module>.my_tracer
+120259084317,METHOD_REF,2,,,def check_registration(...),1,,29,trace_demo.py:<module>.check_registration,796,1039,2,,trace_demo.py:<module>.check_registration
+120259084318,METHOD_REF,1,,,_hash,1,,8,Project.py:<module>._hash,,,-1,,ANY
+120259084319,METHOD_REF,1,,,_valid_email,1,,8,Project.py:<module>._valid_email,,,-1,,ANY
+120259084320,METHOD_REF,1,,,_valid_phone,1,,8,Project.py:<module>._valid_phone,,,-1,,ANY
+120259084321,METHOD_REF,1,,,_valid_national_id,1,,8,Project.py:<module>._valid_national_id,,,-1,,ANY
+120259084322,METHOD_REF,1,,,_valid_email,1,,9,Project.py:<module>._valid_email,,,-1,,ANY
+120259084323,METHOD_REF,1,,,_hash,1,,9,Project.py:<module>._hash,,,-1,,ANY

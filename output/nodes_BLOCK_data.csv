@@ -1,0 +1,705 @@
+25769803776,BLOCK,-1,,,,1,,1,0,15980,1,,ANY
+25769803777,BLOCK,-1,,,"tmp0 = sys.platform
+sys.platform.startswith('win')",4,,10,192,222,1,,ANY
+25769803778,BLOCK,-1,,,"io = import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding = 'utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding = 'utf-8')",1,,10,189,461,2,,ANY
+25769803779,BLOCK,-1,,,,1,,23,706,1037,1,,ANY
+25769803780,BLOCK,1,,,"tmp1 = os.path
+os.path.exists(filepath)",8,,25,811,835,1,,ANY
+25769803781,BLOCK,1,,,"tmp2 = os.path
+os.path.getsize(filepath)",37,,25,840,865,1,,ANY
+25769803782,BLOCK,-1,,,"f = value_tmp6
+return json.load(f)",18,,27,901,920,1,,ANY
+25769803783,BLOCK,-1,,,__exit__(),18,,27,901,920,1,,ANY
+25769803784,BLOCK,-1,,,"manager_tmp3 = open(filepath, ""r"")
+enter_tmp4 = manager_tmp3.__enter__
+exit_tmp5 = manager_tmp3.__exit__
+value_tmp6 = enter_tmp4()
+try: ...",18,,27,901,920,1,,ANY
+25769803785,BLOCK,-1,,,return [],9,,29,971,1026,1,,ANY
+25769803786,BLOCK,-1,,,"manager_tmp3 = open(filepath, ""r"")
+enter_tmp4 = manager_tmp3.__enter__
+exit_tmp5 = manager_tmp3.__exit__
+value_tmp6 = enter_tmp4()
+try: ...",9,,26,879,1026,1,,ANY
+25769803787,BLOCK,-1,,,return [],9,,26,879,1026,1,,ANY
+25769803788,BLOCK,-1,,,try: ...,5,,25,808,1026,2,,ANY
+25769803789,BLOCK,-1,,,,1,,33,1037,1173,1,,ANY
+25769803790,BLOCK,-1,,,"f = value_tmp10
+json.dump(data, f, indent = 2)",10,,35,1109,1128,1,,ANY
+25769803791,BLOCK,-1,,,__exit__(),10,,35,1109,1128,1,,ANY
+25769803792,BLOCK,-1,,,"manager_tmp7 = open(filepath, ""w"")
+enter_tmp8 = manager_tmp7.__enter__
+exit_tmp9 = manager_tmp7.__exit__
+value_tmp10 = enter_tmp8()
+try: ...",10,,35,1109,1128,2,,ANY
+25769803793,BLOCK,-1,,,,1,,38,1173,2326,1,,ANY
+25769803794,BLOCK,1,,,"tmp11 = os.path
+os.path.exists(CENTERS_FILE)",12,,40,1274,1302,1,,ANY
+25769803795,BLOCK,1,,,"tmp12 = {}
+tmp12[""id""] = 1
+tmp12[""name""] = ""Center A""
+tmp12[""address""] = ""123 Main Street, Cairo""
+tmp12[""vaccines""] = [""Pfizer"", ""Moderna""]
+tmp12",13,,42,1344,1450,1,,ANY
+25769803796,BLOCK,2,,,"tmp13 = {}
+tmp13[""id""] = 2
+tmp13[""name""] = ""Center B""
+tmp13[""address""] = ""456 Second Avenue, Alexandria""
+tmp13[""vaccines""] = [""AstraZeneca"", ""Johnson & Johnson""]
+tmp13",13,,43,1464,1586,2,,ANY
+25769803797,BLOCK,-1,,,"default_centers = [tmp12 = {}
+tmp12[""id""] = 1
+tmp12[""name""] = ""Center A""
+tmp12[""address""] = ""123 Main Street, Cairo""
+tmp12[""vaccines""] = [""Pfizer"", ""Moderna""]
+tmp12, tmp13 = {}
+tmp13[""id""] = 2
+tmp13[""name""] = ""Center B""
+tmp13[""address""] = ""456 Second Avenue, Alexandria""
+tmp13[""vaccines""] = [""AstraZeneca"", ""Johnson & Johnson""]
+tmp13]
+_save(CENTERS_FILE, default_centers)",5,,40,1267,1651,2,,ANY
+25769803798,BLOCK,-1,,,"u = tmp15.__next__()
+tmp14.append(u.get(""is_admin""))",16,,48,1692,1724,2,,ANY
+25769803799,BLOCK,-1,,,"tmp15 = users.__iter__()
+while ... : ...",16,,48,1692,1724,2,,ANY
+25769803800,BLOCK,1,,,"tmp14 = <operator>.genExp
+tmp15 = users.__iter__()
+while ... : ...
+tmp14",16,,48,1692,1724,1,,ANY
+25769803801,BLOCK,2,,,"tmp16 = os.urandom(16)
+os.urandom(16).hex()",22,,49,1748,1768,2,,ANY
+25769803802,BLOCK,2,,,"tmp17 = {}
+tmp17[""id""] = 0
+tmp17[""name""] = ""Administrator""
+tmp17[""email""] = ""admin@system.com""
+tmp17[""password""] = _hash(""admin123"", admin_salt)
+tmp17[""salt""] = admin_salt
+tmp17[""phone""] = ""0000000000""
+tmp17[""national_id""] = ""0000000000""
+tmp17[""is_admin""] = True
+tmp17",22,,50,1790,2092,2,,ANY
+25769803803,BLOCK,-1,,,"admin_salt = tmp16 = os.urandom(16)
+os.urandom(16).hex()
+admin_user = tmp17 = {}
+tmp17[""id""] = 0
+tmp17[""name""] = ""Administrator""
+tmp17[""email""] = ""admin@system.com""
+tmp17[""password""] = _hash(""admin123"", admin_salt)
+tmp17[""salt""] = admin_salt
+tmp17[""phone""] = ""0000000000""
+tmp17[""national_id""] = ""0000000000""
+tmp17[""is_admin""] = True
+tmp17
+users.append(admin_user)
+_save(USERS_FILE, users)",5,,48,1681,2164,2,,ANY
+25769803804,BLOCK,1,,,"tmp18 = os.path
+os.path.exists(RESERVATIONS_FILE)",12,,63,2171,2204,1,,ANY
+25769803805,BLOCK,-1,,,"_save(RESERVATIONS_FILE, [])",5,,63,2164,2326,2,,ANY
+25769803806,BLOCK,-1,,,,1,,68,2326,2717,1,,ANY
+25769803807,BLOCK,2,,,"tmp19 = input(prompt)
+input(prompt).strip()",17,,71,2484,2505,2,,ANY
+25769803808,BLOCK,-1,,,"print(""This field cannot be empty."")
+continue",9,,72,2514,2606,2,,ANY
+25769803809,BLOCK,-1,,,"print(error_msg)
+continue",9,,75,2606,2703,2,,ANY
+25769803810,BLOCK,-1,,,"value = tmp19 = input(prompt)
+input(prompt).strip()
+if ... : ...
+if ... : ...
+return value",5,,70,2456,2717,2,,ANY
+25769803811,BLOCK,-1,,,,1,,80,2717,2948,1,,ANY
+25769803812,BLOCK,2,,,"tmp20 = input(prompt)
+input(prompt).strip()",15,,83,2825,2846,2,,ANY
+25769803813,BLOCK,-1,,,return int(raw),9,,84,2855,2909,2,,ANY
+25769803814,BLOCK,-1,,,"raw = tmp20 = input(prompt)
+input(prompt).strip()
+if ... : ...
+print(""Please enter a valid number."")",5,,82,2799,2948,2,,ANY
+25769803815,BLOCK,-1,,,,1,,88,2948,3254,1,,ANY
+25769803816,BLOCK,2,,,"tmp21 = input(prompt)
+input(prompt).strip()",15,,91,3065,3086,2,,ANY
+25769803817,BLOCK,-1,,,"tmp22 = datetime.date
+datetime.date.fromisoformat(raw)",13,,93,3112,3144,1,,ANY
+25769803818,BLOCK,-1,,,"print(""Invalid date. Use YYYY-MM-DD format."")",9,,95,3176,3254,1,,ANY
+25769803819,BLOCK,-1,,,"tmp22 = datetime.date
+datetime.date.fromisoformat(raw)
+return raw",9,,92,3095,3254,1,,ANY
+25769803820,BLOCK,-1,,,"print(""Invalid date. Use YYYY-MM-DD format."")",9,,92,3095,3254,1,,ANY
+25769803821,BLOCK,-1,,,"raw = tmp21 = input(prompt)
+input(prompt).strip()
+try: ...",5,,90,3039,3254,2,,ANY
+25769803822,BLOCK,-1,,,,1,,98,3254,3392,1,,ANY
+25769803823,BLOCK,2,,,"tmp24 = input(f""{prompt} (y/n): "")
+input(f""{prompt} (y/n): "").strip()",12,,100,3341,3375,2,,ANY
+25769803824,BLOCK,1,,,"tmp23 = tmp24 = input(f""{prompt} (y/n): "")
+input(f""{prompt} (y/n): "").strip()
+input(f""{prompt} (y/n): "").strip().lower()",12,,100,3341,3383,1,,ANY
+25769803825,BLOCK,-1,,,,1,,102,3392,3571,1,,ANY
+25769803826,BLOCK,1,,,"tmp26 = password + salt
+password + salt.encode()",28,,103,3449,3474,2,,ANY
+25769803827,BLOCK,1,,,"tmp25 = hashlib.sha256(password + salt.encode())
+hashlib.sha256(password + salt.encode()).hexdigest()",12,,103,3433,3487,1,,ANY
+25769803828,BLOCK,-1,,,,1,,107,3571,3668,1,,ANY
+25769803829,BLOCK,-1,,,,1,,110,3668,3751,1,,ANY
+25769803830,BLOCK,-1,,,,1,,113,3751,3910,1,,ANY
+25769803831,BLOCK,-1,,,,1,,118,3910,5150,1,,ANY
+25769803832,BLOCK,-1,,,,24,,126,4447,4468,1,,ANY
+25769803833,BLOCK,-1,,,"u = tmp28.__next__()
+tmp27.append(u[""email""] == email)",12,,131,4588,4622,2,,ANY
+25769803834,BLOCK,-1,,,"tmp28 = users.__iter__()
+while ... : ...",12,,131,4588,4622,2,,ANY
+25769803835,BLOCK,1,,,"tmp27 = <operator>.genExp
+tmp28 = users.__iter__()
+while ... : ...
+tmp27",12,,131,4588,4622,1,,ANY
+25769803836,BLOCK,-1,,,"print(""An account with that email already exists."")
+return",5,,131,4581,4705,2,,ANY
+25769803837,BLOCK,-1,,,"u = tmp30.__next__()
+tmp29.append(u[""id""])",19,,135,4719,4743,2,,ANY
+25769803838,BLOCK,-1,,,"tmp30 = users.__iter__()
+while ... : ...",19,,135,4719,4743,2,,ANY
+25769803839,BLOCK,1,,,"tmp29 = <operator>.genExp
+tmp30 = users.__iter__()
+while ... : ...
+tmp29",19,,135,4719,4743,1,,ANY
+25769803840,BLOCK,2,,,"tmp31 = os.urandom(16)
+os.urandom(16).hex()",15,,136,4774,4794,2,,ANY
+25769803841,BLOCK,1,,,"tmp32 = {}
+tmp32[""id""] = user_id
+tmp32[""name""] = name
+tmp32[""email""] = email
+tmp32[""password""] = _hash(password, salt)
+tmp32[""salt""] = salt
+tmp32[""phone""] = phone
+tmp32[""national_id""] = national_id
+tmp32",18,,137,4812,5051,2,,ANY
+25769803842,BLOCK,-1,,,,1,,150,5150,5823,1,,ANY
+25769803843,BLOCK,-1,,,continue,46,,156,5483,5500,2,,ANY
+25769803844,BLOCK,-1,,,"u = tmp34.__next__()
+if ... : ...
+tmp33.append(u)",25,,156,5462,5501,2,,ANY
+25769803845,BLOCK,-1,,,"tmp34 = users.__iter__()
+while ... : ...",25,,156,5462,5501,2,,ANY
+25769803846,BLOCK,1,,,"tmp33 = <operator>.genExp
+tmp34 = users.__iter__()
+while ... : ...
+tmp33",25,,156,5462,5501,1,,ANY
+25769803847,BLOCK,-1,,,"print(""Login successful."")
+return True",13,,159,5580,5706,2,,ANY
+25769803848,BLOCK,-1,,,"salt = admin.get(""salt"", """")
+if ... : ...",9,,157,5517,5706,2,,ANY
+25769803849,BLOCK,2,,,"tmp36 = range(1, MAX_LOGIN_ATTEMPTS + 1)
+tmp36.__iter__()",5,,153,5307,5769,2,,ANY
+25769803850,BLOCK,-1,,,"attempt = tmp35.__next__()
+password = input(""Admin password: "")
+users = _load(USERS_FILE)
+admin = next((u for u in users if u.get(""is_admin"")), None)
+if ... : ...
+print(f""Wrong password. ({attempt}/{MAX_LOGIN_ATTEMPTS})"")",5,,153,5307,5769,2,,ANY
+25769803851,BLOCK,-1,,,"tmp35 = tmp36 = range(1, MAX_LOGIN_ATTEMPTS + 1)
+tmp36.__iter__()
+while ... : ...",5,,153,5307,5769,3,,ANY
+25769803852,BLOCK,-1,,,,1,,167,5823,6753,1,,ANY
+25769803853,BLOCK,2,,,"tmp37 = input(""Email: "")
+input(""Email: "").strip()",20,,171,6061,6085,2,,ANY
+25769803854,BLOCK,-1,,,"print(f""Welcome, {user['name']}!"")
+return user",17,,178,6406,6547,2,,ANY
+25769803855,BLOCK,-1,,,"salt = user.get(""salt"", """")
+if ... : ...",13,,176,6290,6547,2,,ANY
+25769803856,BLOCK,-1,,,"user = tmp38.__next__()
+if ... : ...",9,,174,6170,6547,2,,ANY
+25769803857,BLOCK,-1,,,"tmp38 = users.__iter__()
+while ... : ...",9,,174,6170,6547,5,,ANY
+25769803858,BLOCK,2,,,"tmp40 = range(1, MAX_LOGIN_ATTEMPTS + 1)
+tmp40.__iter__()",5,,170,5993,6619,2,,ANY
+25769803859,BLOCK,-1,,,"attempt = tmp39.__next__()
+email = tmp37 = input(""Email: "")
+input(""Email: "").strip()
+password = input(""Password: "")
+users = _load(USERS_FILE)
+tmp38 = users.__iter__()
+while ... : ...
+print(f""Wrong email or password. ({attempt}/{MAX_LOGIN_ATTEMPTS})"")",5,,170,5993,6619,2,,ANY
+25769803860,BLOCK,-1,,,"tmp39 = tmp40 = range(1, MAX_LOGIN_ATTEMPTS + 1)
+tmp40.__iter__()
+while ... : ...",5,,170,5993,6619,3,,ANY
+25769803861,BLOCK,-1,,,,1,,187,6753,8581,1,,ANY
+25769803862,BLOCK,2,,,"tmp44 = _ask(""Vaccines (comma-separated): "")
+_ask(""Vaccines (comma-separated): "").split("","")",30,,198,7132,7179,2,,ANY
+25769803863,BLOCK,2,,,"tmp43 = tmp44 = _ask(""Vaccines (comma-separated): "")
+_ask(""Vaccines (comma-separated): "").split("","")
+tmp43.__iter__()",20,,197,7092,7213,2,,ANY
+25769803864,BLOCK,-1,,,continue,24,,199,7203,7212,2,,ANY
+25769803865,BLOCK,-1,,,"v = tmp42.__next__()
+if ... : ...
+tmp41.append(v.strip())",20,,197,7092,7213,2,,ANY
+25769803866,BLOCK,-1,,,"tmp42 = tmp43 = tmp44 = _ask(""Vaccines (comma-separated): "")
+_ask(""Vaccines (comma-separated): "").split("","")
+tmp43.__iter__()
+while ... : ...",20,,197,7092,7213,2,,ANY
+25769803867,BLOCK,2,,,"tmp41 = []
+tmp42 = tmp43 = tmp44 = _ask(""Vaccines (comma-separated): "")
+_ask(""Vaccines (comma-separated): "").split("","")
+tmp43.__iter__()
+while ... : ...
+tmp41",20,,197,7092,7213,2,,ANY
+25769803868,BLOCK,-1,,,"print(""You must enter at least one vaccine."")
+return",9,,200,7222,7324,2,,ANY
+25769803869,BLOCK,-1,,,"c = tmp46.__next__()
+tmp45.append(c[""id""])",23,,204,7376,7402,2,,ANY
+25769803870,BLOCK,-1,,,"tmp46 = centers.__iter__()
+while ... : ...",23,,204,7376,7402,2,,ANY
+25769803871,BLOCK,1,,,"tmp45 = <operator>.genExp
+tmp46 = centers.__iter__()
+while ... : ...
+tmp45",23,,204,7376,7402,1,,ANY
+25769803872,BLOCK,1,,,"tmp47 = {}
+tmp47[""id""] = new_id
+tmp47[""name""] = name
+tmp47[""address""] = address
+tmp47[""vaccines""] = vaccines
+tmp47",24,,205,7442,7537,2,,ANY
+25769803873,BLOCK,-1,,,"name = _ask(""Center name: "")
+address = _ask(""Address: "")
+vaccines = tmp41 = []
+tmp42 = tmp43 = tmp44 = _ask(""Vaccines (comma-separated): "")
+_ask(""Vaccines (comma-separated): "").split("","")
+tmp43.__iter__()
+while ... : ...
+tmp41
+if ... : ...
+centers = _load(CENTERS_FILE)
+new_id = max(c[""id""] for c in centers) + 1
+centers.append({""id"":new_id, ""name"":name, ""address"":address, ""vaccines"":vaccines})
+_save(CENTERS_FILE, centers)
+print(f""Center '{name}' added with ID {new_id}."")",5,,194,6977,8581,2,,ANY
+25769803874,BLOCK,-1,,,"print(""No centers on file."")
+return",9,,212,7705,7789,2,,ANY
+25769803875,BLOCK,-1,,,continue,49,,216,7889,7909,2,,ANY
+25769803876,BLOCK,-1,,,"c = tmp49.__next__()
+if ... : ...
+tmp48.append(c)",26,,216,7866,7910,2,,ANY
+25769803877,BLOCK,-1,,,"tmp49 = centers.__iter__()
+while ... : ...",26,,216,7866,7910,2,,ANY
+25769803878,BLOCK,1,,,"tmp48 = <operator>.genExp
+tmp49 = centers.__iter__()
+while ... : ...
+tmp48",26,,216,7866,7910,1,,ANY
+25769803879,BLOCK,-1,,,"print(""Center not found."")
+return",9,,217,7926,8074,2,,ANY
+25769803880,BLOCK,-1,,,"r = tmp51.__next__()
+tmp50.append(r[""center_id""] == center_id)",16,,223,8129,8178,2,,ANY
+25769803881,BLOCK,-1,,,"tmp51 = reservations.__iter__()
+while ... : ...",16,,223,8129,8178,2,,ANY
+25769803882,BLOCK,1,,,"tmp50 = <operator>.genExp
+tmp51 = reservations.__iter__()
+while ... : ...
+tmp50",16,,223,8129,8178,1,,ANY
+25769803883,BLOCK,-1,,,"print(""Cannot remove center: Active reservations are linked to it."")
+return",9,,223,8122,8290,2,,ANY
+25769803884,BLOCK,-1,,,"print(""Cancelled."")
+return",9,,227,8290,8397,2,,ANY
+25769803885,BLOCK,-1,,,continue,52,,230,8440,8460,2,,ANY
+25769803886,BLOCK,-1,,,"c = tmp53.__next__()
+if ... : ...
+tmp52.append(c)",29,,230,8417,8461,2,,ANY
+25769803887,BLOCK,-1,,,"tmp53 = centers.__iter__()
+while ... : ...",29,,230,8417,8461,2,,ANY
+25769803888,BLOCK,2,,,"tmp52 = []
+tmp53 = centers.__iter__()
+while ... : ...
+tmp52",29,,230,8417,8461,2,,ANY
+25769803889,BLOCK,-1,,,"centers = _load(CENTERS_FILE)
+if ... : ...
+center_id = _ask_int(""Enter center ID to remove: "")
+target = next((c for c in centers if c[""id""] == center_id), None)
+if ... : ...
+reservations = _load(RESERVATIONS_FILE)
+if ... : ...
+if ... : ...
+_save(CENTERS_FILE, [c for c in centers if c[""id""] != center_id])
+print(""Center removed."")",5,,210,7639,8581,2,,ANY
+25769803890,BLOCK,-1,,,return,5,,233,8501,8581,2,,ANY
+25769803891,BLOCK,-1,,,"print(""Invalid choice."")",9,,236,8554,8578,3,,ANY
+25769803892,BLOCK,-1,,,if ... : ...,5,,233,8501,8581,3,,ANY
+25769803893,BLOCK,-1,,,if ... : ...,5,,210,7639,8581,3,,ANY
+25769803894,BLOCK,-1,,,,1,,239,8581,9240,1,,ANY
+25769803895,BLOCK,2,,,"tmp55 = input(""Enter center name to search: "")
+input(""Enter center name to search: "").strip()",15,,241,8710,8756,2,,ANY
+25769803896,BLOCK,2,,,"tmp54 = tmp55 = input(""Enter center name to search: "")
+input(""Enter center name to search: "").strip()
+input(""Enter center name to search: "").strip().lower()",15,,241,8710,8764,2,,ANY
+25769803897,BLOCK,2,,,"tmp58 = c[""name""]
+c[""name""].lower()",47,,243,8845,8862,2,,ANY
+25769803898,BLOCK,-1,,,continue,38,,243,8836,8862,2,,ANY
+25769803899,BLOCK,-1,,,"c = tmp57.__next__()
+if ... : ...
+tmp56.append(c)",15,,243,8813,8863,2,,ANY
+25769803900,BLOCK,-1,,,"tmp57 = centers.__iter__()
+while ... : ...",15,,243,8813,8863,2,,ANY
+25769803901,BLOCK,2,,,"tmp56 = []
+tmp57 = centers.__iter__()
+while ... : ...
+tmp56",15,,243,8813,8863,2,,ANY
+25769803902,BLOCK,1,,,"tmp59 = ', '
+', '.join(c['vaccines'])",32,,251,9119,9143,1,,ANY
+25769803903,BLOCK,-1,,,"c = tmp60.__next__()
+print(f""\\nID:       {c['id']}"")
+print(f""Name:     {c['name']}"")
+print(f""Address:  {c['address']}"")
+print(f""Vaccines: {', '.join(c['vaccines'])}"")
+print(""-"" * 20)",9,,247,8937,9179,2,,ANY
+25769803904,BLOCK,-1,,,"tmp60 = found.__iter__()
+while ... : ...",9,,247,8937,9179,2,,ANY
+25769803905,BLOCK,-1,,,"print(f""\\nFound {len(found)} center(s):"")
+tmp60 = found.__iter__()
+while ... : ...",5,,245,8869,9240,2,,ANY
+25769803906,BLOCK,-1,,,"print(""No center found matching that name."")",9,,254,9193,9237,3,,ANY
+25769803907,BLOCK,-1,,,,1,,257,9240,10215,1,,ANY
+25769803908,BLOCK,-1,,,"print(""No users registered yet."")
+return",5,,263,9468,9544,2,,ANY
+25769803909,BLOCK,-1,,,"c = tmp62.__next__()
+tmp61[c[""id""]] = c[""name""]",18,,267,9557,9594,2,,ANY
+25769803910,BLOCK,-1,,,"tmp62 = centers.__iter__()
+while ... : ...",18,,267,9557,9594,2,,ANY
+25769803911,BLOCK,2,,,"tmp61 = {}
+tmp62 = centers.__iter__()
+while ... : ...
+tmp61",18,,267,9557,9594,2,,ANY
+25769803912,BLOCK,-1,,,continue,48,,274,9846,9869,2,,ANY
+25769803913,BLOCK,-1,,,"r = tmp64.__next__()
+if ... : ...
+tmp63.append(r)",20,,274,9818,9870,2,,ANY
+25769803914,BLOCK,-1,,,"tmp64 = reservations.__iter__()
+while ... : ...",20,,274,9818,9870,2,,ANY
+25769803915,BLOCK,1,,,"tmp63 = <operator>.genExp
+tmp64 = reservations.__iter__()
+while ... : ...
+tmp63",20,,274,9818,9870,1,,ANY
+25769803916,BLOCK,-1,,,"center_name = center_map.get(res[""center_id""], ""Unknown"")
+date_str = res.get(""date"") or ""pending""
+print(f""   ↳ Reservation: {res['vaccine']} at "" f""{center_name} | Date: {date_str}"")",9,,275,9886,10197,2,,ANY
+25769803917,BLOCK,-1,,,"print(""   ↳ No reservation"")",13,,281,10160,10188,3,,ANY
+25769803918,BLOCK,-1,,,"u = tmp65.__next__()
+print(f""ID: {u['id']}  |  Name: {u['name']}  |  "" f""Email: {u['email']}  |  Phone: {u['phone']}"")
+res = next((r for r in reservations if r[""user_id""] == u[""id""]), None)
+if ... : ...
+print(""-"" * 46)",5,,270,9662,10215,2,,ANY
+25769803919,BLOCK,-1,,,"tmp65 = users.__iter__()
+while ... : ...",5,,270,9662,10215,8,,ANY
+25769803920,BLOCK,-1,,,,1,,285,10215,11465,1,,ANY
+25769803921,BLOCK,-1,,,continue,44,,290,10466,10489,2,,ANY
+25769803922,BLOCK,-1,,,"r = tmp67.__next__()
+if ... : ...
+tmp66.append(r)",16,,290,10438,10490,2,,ANY
+25769803923,BLOCK,-1,,,"tmp67 = reservations.__iter__()
+while ... : ...",16,,290,10438,10490,2,,ANY
+25769803924,BLOCK,1,,,"tmp66 = <operator>.genExp
+tmp67 = reservations.__iter__()
+while ... : ...
+tmp66",16,,290,10438,10490,1,,ANY
+25769803925,BLOCK,-1,,,"print(""No reservation found for that user."")
+return",5,,291,10502,10587,2,,ANY
+25769803926,BLOCK,-1,,,"print(f""This user already has an assigned date: {res['date']}"")
+return",5,,295,10587,10695,2,,ANY
+25769803927,BLOCK,2,,,"tmp68 = input(""Choice (1-2): "")
+input(""Choice (1-2): "").strip()",14,,302,10863,10894,2,,ANY
+25769803928,BLOCK,1,,,"tmp70 = datetime.date
+datetime.date.today()",27,,306,10992,11013,1,,ANY
+25769803929,BLOCK,2,,,"tmp69 = tmp70 = datetime.date
+datetime.date.today() + datetime.timedelta(days = delta)
+datetime.date.today() + datetime.timedelta(days = delta).strftime(""%Y-%m-%d"")",27,,306,10992,11068,2,,ANY
+25769803930,BLOCK,-1,,,"delta = random.randint(10, 30)
+assigned_date = tmp69 = tmp70 = datetime.date
+datetime.date.today() + datetime.timedelta(days = delta)
+datetime.date.today() + datetime.timedelta(days = delta).strftime(""%Y-%m-%d"")",5,,304,10900,11241,2,,ANY
+25769803931,BLOCK,-1,,,"assigned_date = _ask_date(""Enter date (YYYY-MM-DD): "")",5,,307,11073,11241,2,,ANY
+25769803932,BLOCK,-1,,,"print(""Invalid choice. Operation cancelled."")
+return",9,,310,11175,11220,3,,ANY
+25769803933,BLOCK,-1,,,if ... : ...,5,,307,11073,11241,3,,ANY
+25769803934,BLOCK,-1,,,,1,,319,11465,11883,1,,ANY
+25769803935,BLOCK,-1,,,"print(""No vaccination centers available yet."")
+return",5,,322,11566,11656,2,,ANY
+25769803936,BLOCK,1,,,"tmp71 = ', '
+', '.join(c['vaccines'])",31,,328,11833,11857,1,,ANY
+25769803937,BLOCK,-1,,,"c = tmp72.__next__()
+print(f""ID: {c['id']}  |  {c['name']}  |  {c['address']}"")
+print(f""   Vaccines: {', '.join(c['vaccines'])}"")",5,,326,11718,11865,2,,ANY
+25769803938,BLOCK,-1,,,"tmp72 = centers.__iter__()
+while ... : ...",5,,326,11718,11865,5,,ANY
+25769803939,BLOCK,-1,,,,1,,332,11883,13090,1,,ANY
+25769803940,BLOCK,-1,,,"r = tmp74.__next__()
+tmp73.append(r[""user_id""] == user[""id""])",12,,337,12057,12105,2,,ANY
+25769803941,BLOCK,-1,,,"tmp74 = reservations.__iter__()
+while ... : ...",12,,337,12057,12105,2,,ANY
+25769803942,BLOCK,1,,,"tmp73 = <operator>.genExp
+tmp74 = reservations.__iter__()
+while ... : ...
+tmp73",12,,337,12057,12105,1,,ANY
+25769803943,BLOCK,-1,,,"print(""You already have a reservation. View it with option 3."")
+return",5,,337,12050,12200,2,,ANY
+25769803944,BLOCK,-1,,,return,5,,343,12253,12289,2,,ANY
+25769803945,BLOCK,-1,,,continue,45,,347,12369,12389,2,,ANY
+25769803946,BLOCK,-1,,,"c = tmp76.__next__()
+if ... : ...
+tmp75.append(c)",22,,347,12346,12390,2,,ANY
+25769803947,BLOCK,-1,,,"tmp76 = centers.__iter__()
+while ... : ...",22,,347,12346,12390,2,,ANY
+25769803948,BLOCK,1,,,"tmp75 = <operator>.genExp
+tmp76 = centers.__iter__()
+while ... : ...
+tmp75",22,,347,12346,12390,1,,ANY
+25769803949,BLOCK,-1,,,"print(""Center not found."")
+return",5,,349,12403,12473,2,,ANY
+25769803950,BLOCK,1,,,"tmp77 = ', '
+', '.join(center['vaccines'])",34,,353,12502,12531,1,,ANY
+25769803951,BLOCK,2,,,"tmp80 = center[""vaccines""]
+tmp80.__iter__()",20,,357,12621,12684,2,,ANY
+25769803952,BLOCK,-1,,,continue,54,,357,12655,12683,2,,ANY
+25769803953,BLOCK,-1,,,"v = tmp79.__next__()
+if ... : ...
+tmp78.append(v)",20,,357,12621,12684,2,,ANY
+25769803954,BLOCK,-1,,,"tmp79 = tmp80 = center[""vaccines""]
+tmp80.__iter__()
+while ... : ...",20,,357,12621,12684,2,,ANY
+25769803955,BLOCK,1,,,"tmp78 = <operator>.genExp
+tmp79 = tmp80 = center[""vaccines""]
+tmp80.__iter__()
+while ... : ...
+tmp78",20,,357,12621,12684,1,,ANY
+25769803956,BLOCK,-1,,,"print(""That vaccine is not available at this center."")
+return",5,,358,12696,12795,2,,ANY
+25769803957,BLOCK,1,,,"tmp81 = {}
+tmp81[""user_id""] = user[""id""]
+tmp81[""center_id""] = center_id
+tmp81[""vaccine""] = matched
+tmp81[""date""] = None
+tmp81",25,,362,12815,12979,2,,ANY
+25769803958,BLOCK,-1,,,,1,,372,13090,13841,1,,ANY
+25769803959,BLOCK,-1,,,continue,44,,375,13267,13293,2,,ANY
+25769803960,BLOCK,-1,,,"r = tmp83.__next__()
+if ... : ...
+tmp82.append(r)",16,,375,13239,13294,2,,ANY
+25769803961,BLOCK,-1,,,"tmp83 = reservations.__iter__()
+while ... : ...",16,,375,13239,13294,2,,ANY
+25769803962,BLOCK,1,,,"tmp82 = <operator>.genExp
+tmp83 = reservations.__iter__()
+while ... : ...
+tmp82",16,,375,13239,13294,1,,ANY
+25769803963,BLOCK,-1,,,"print(""You have no reservation yet."")",5,,377,13307,13841,2,,ANY
+25769803964,BLOCK,-1,,,continue,44,,382,13500,13527,2,,ANY
+25769803965,BLOCK,-1,,,"c = tmp85.__next__()
+if ... : ...
+tmp84.append(c[""name""])",13,,382,13469,13528,2,,ANY
+25769803966,BLOCK,-1,,,"tmp85 = centers.__iter__()
+while ... : ...",13,,382,13469,13528,2,,ANY
+25769803967,BLOCK,1,,,"tmp84 = <operator>.genExp
+tmp85 = centers.__iter__()
+while ... : ...
+tmp84",13,,382,13469,13528,1,,ANY
+25769803968,BLOCK,-1,,,"centers = _load(CENTERS_FILE)
+center_name = next((c[""name""] for c in centers if c[""id""] == res[""center_id""]), ""Unknown"")
+print(f""Your vaccination: {res['vaccine']} at {center_name} "" f""on {res['date']}."")",5,,379,13369,13841,2,,ANY
+25769803969,BLOCK,-1,,,"print(""Your reservation is pending — the admin hasn't set a date yet."")",9,,388,13686,13757,3,,ANY
+25769803970,BLOCK,-1,,,if ... : ...,5,,379,13369,13841,3,,ANY
+25769803971,BLOCK,-1,,,,1,,392,13841,14565,1,,ANY
+25769803972,BLOCK,-1,,,add_or_remove_center(),9,,402,14231,14565,2,,ANY
+25769803973,BLOCK,-1,,,search_center_by_name(),9,,403,14282,14565,2,,ANY
+25769803974,BLOCK,-1,,,list_users_and_reservations(),9,,404,14334,14565,2,,ANY
+25769803975,BLOCK,-1,,,accept_reservation(),9,,405,14392,14565,2,,ANY
+25769803976,BLOCK,-1,,,"print(""Logged out."")
+break",9,,406,14441,14565,2,,ANY
+25769803977,BLOCK,-1,,,"print(""Invalid choice."")",13,,410,14538,14562,3,,ANY
+25769803978,BLOCK,-1,,,if ... : ...,9,,406,14441,14565,3,,ANY
+25769803979,BLOCK,-1,,,if ... : ...,9,,405,14392,14565,3,,ANY
+25769803980,BLOCK,-1,,,if ... : ...,9,,404,14334,14565,3,,ANY
+25769803981,BLOCK,-1,,,if ... : ...,9,,403,14282,14565,3,,ANY
+25769803982,BLOCK,-1,,,"print(""\\n── Admin Menu ────────────────────────────────"")
+print(""1. Add / Remove a vaccination center"")
+print(""2. Search for a center by name"")
+print(""3. List all users and reservations"")
+print(""4. Accept a reservation and assign a date"")
+print(""5. Logout"")
+choice = input(""Choice (1-5): "")
+if ... : ...",5,,393,13863,14565,2,,ANY
+25769803983,BLOCK,-1,,,,1,,413,14565,15240,1,,ANY
+25769803984,BLOCK,-1,,,view_centers(),9,,422,14882,15240,2,,ANY
+25769803985,BLOCK,-1,,,reserve_vaccination(user),9,,423,14925,15240,2,,ANY
+25769803986,BLOCK,-1,,,view_vaccination_date(user),9,,424,14979,15240,2,,ANY
+25769803987,BLOCK,-1,,,"print(""Logged out."")
+break",9,,425,15035,15240,2,,ANY
+25769803988,BLOCK,-1,,,"print(""Invalid choice."")",13,,429,15132,15156,3,,ANY
+25769803989,BLOCK,-1,,,if ... : ...,9,,425,15035,15240,3,,ANY
+25769803990,BLOCK,-1,,,if ... : ...,9,,424,14979,15240,3,,ANY
+25769803991,BLOCK,-1,,,if ... : ...,9,,423,14925,15240,3,,ANY
+25769803992,BLOCK,-1,,,"print(f""\\n── User Menu ({user['name']}) ────────────────────"")
+print(""1. View vaccination centers"")
+print(""2. Reserve a vaccination"")
+print(""3. View my vaccination date"")
+print(""4. Logout"")
+choice = input(""Choice (1-4): "")
+if ... : ...",5,,414,14590,15240,2,,ANY
+25769803993,BLOCK,-1,,,,1,,433,15240,15943,1,,ANY
+25769803994,BLOCK,-1,,,register_user(),9,,443,15568,15943,2,,ANY
+25769803995,BLOCK,-1,,,admin_menu(),13,,446,15654,15709,2,,ANY
+25769803996,BLOCK,-1,,,if ... : ...,9,,445,15622,15943,2,,ANY
+25769803997,BLOCK,-1,,,user_menu(user),13,,450,15773,15822,2,,ANY
+25769803998,BLOCK,-1,,,"user = login_user()
+if ... : ...",9,,448,15709,15943,2,,ANY
+25769803999,BLOCK,-1,,,"print(""Goodbye!"")
+break",9,,452,15822,15943,2,,ANY
+25769804000,BLOCK,-1,,,"print(""Invalid choice."")",13,,456,15916,15940,3,,ANY
+25769804001,BLOCK,-1,,,if ... : ...,9,,452,15822,15943,3,,ANY
+25769804002,BLOCK,-1,,,if ... : ...,9,,448,15709,15943,3,,ANY
+25769804003,BLOCK,-1,,,if ... : ...,9,,445,15622,15943,3,,ANY
+25769804004,BLOCK,-1,,,"print(""\\n══ Vaccination Scheduling System ══════════════"")
+print(""1. Register"")
+print(""2. Login as admin"")
+print(""3. Login as user"")
+print(""4. Exit"")
+choice = input(""Choice (1-4): "")
+if ... : ...",5,,435,15316,15943,2,,ANY
+25769804005,BLOCK,-1,,,main(),1,,459,15943,15980,2,,ANY
+25769804006,BLOCK,-1,,,,1,,1,0,1465,1,,ANY
+25769804007,BLOCK,-1,,,,1,,1,0,1472,1,,ANY
+25769804008,BLOCK,-1,,,"_hash = from Project import _hash, _valid_email, _valid_phone, _valid_national_id
+_valid_email = from Project import _hash, _valid_email, _valid_phone, _valid_national_id
+_valid_phone = from Project import _hash, _valid_email, _valid_phone, _valid_national_id
+_valid_national_id = from Project import _hash, _valid_email, _valid_phone, _valid_national_id",1,,8,253,326,7,,ANY
+25769804009,BLOCK,-1,,,,1,,11,329,1004,1,,ANY
+25769804010,BLOCK,1,,,"tmp0 = {}
+tmp0[""id""] = i
+tmp0[""email""] = email
+tmp0[""phone""] = phone
+tmp0[""national_id""] = national_id
+tmp0[""password""] = hashed
+tmp0",26,,22,799,983,2,,ANY
+25769804011,BLOCK,-1,,,"hashed = _hash(password, ""demo_salt"")
+users.append({""id"":i, ""email"":email, ""phone"":phone, ""national_id"":national_id, ""password"":hashed})",9,,20,640,989,2,,ANY
+25769804012,BLOCK,2,,,"tmp2 = range(n)
+tmp2.__iter__()",5,,14,450,989,2,,ANY
+25769804013,BLOCK,-1,,,"i = tmp1.__next__()
+email = f""user{i}@example.com""
+phone = f""+2010{i % 10000000:07d}""
+national_id = str(10000000000000 + i)
+password = f""password{i}""
+if ... : ...",5,,14,450,989,2,,ANY
+25769804014,BLOCK,-1,,,"tmp1 = tmp2 = range(n)
+tmp2.__iter__()
+while ... : ...",5,,14,450,989,3,,ANY
+25769804015,BLOCK,-1,,,,1,,32,1004,1151,1,,ANY
+25769804016,BLOCK,1,,,"tmp4 = u[""password""]
+u[""password""].upper()",13,,34,1111,1132,2,,ANY
+25769804017,BLOCK,-1,,,"u = tmp5.__next__()
+tmp3.append(tmp4 = u[""password""]
+u[""password""].upper())",12,,34,1110,1148,2,,ANY
+25769804018,BLOCK,-1,,,"tmp5 = users.__iter__()
+while ... : ...",12,,34,1110,1148,2,,ANY
+25769804019,BLOCK,1,,,"tmp3 = []
+tmp5 = users.__iter__()
+while ... : ...
+tmp3",12,,34,1110,1148,1,,ANY
+25769804020,BLOCK,-1,,,,1,,37,1151,1283,1,,ANY
+25769804021,BLOCK,-1,,,,1,,1,0,1217,1,,ANY
+25769804022,BLOCK,-1,,,"_valid_email = from Project import _valid_email, _hash
+_hash = from Project import _valid_email, _hash",1,,9,190,229,5,,ANY
+25769804023,BLOCK,1,,,"tmp0 = os.path
+os.path.abspath(""Project.py"")",5,,14,376,405,1,,ANY
+25769804024,BLOCK,2,,,"tmp1 = os.path
+os.path.abspath(__file__)",5,,15,411,436,2,,ANY
+25769804025,BLOCK,-1,,,,1,,19,442,796,1,,ANY
+25769804026,BLOCK,1,,,"tmp2 = os.path
+os.path.abspath(code.co_filename)",8,,21,512,545,1,,ANY
+25769804027,BLOCK,-1,,,return None,5,,21,509,635,2,,ANY
+25769804028,BLOCK,-1,,,,1,,29,796,1039,1,,ANY
+25769804029,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804030,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804031,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804032,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804033,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804034,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804035,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804036,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804037,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804038,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804039,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804040,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804041,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804042,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804043,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804044,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804045,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804046,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804047,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804048,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804049,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804050,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804051,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804052,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804053,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804054,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804055,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804056,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804057,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804058,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804059,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804060,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804061,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804062,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804063,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804064,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804065,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804066,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804067,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804068,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804069,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804070,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804071,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804072,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804073,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804074,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804075,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804076,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804077,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804078,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804079,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804080,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804081,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804082,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804083,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804084,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804085,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804086,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804087,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804088,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804089,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804090,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804091,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804092,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804093,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804094,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804095,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804096,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804097,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804098,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804099,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804100,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804101,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804102,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804103,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804104,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804105,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804106,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804107,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804108,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804109,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804110,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804111,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804112,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804113,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804114,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804115,BLOCK,1,,,<empty>,,,,,,1,,ANY
+25769804116,BLOCK,1,,,<empty>,,,,,,1,,ANY

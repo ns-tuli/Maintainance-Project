@@ -1,0 +1,5 @@
+export_path: "F:/SEMESTER 8/MAINTAINANCE LAB/LAB FINAL MAINTAINANCE/Maintainance Final github/Maintainance Project/output"
+neo4j_uri: "neo4j://127.0.0.1:7687"
+neo4j_user: "neo4j"
+neo4j_password: "password"
+neo4j_import_path: "C:/Users/HP/.Neo4jDesktop2/Data/dbmss/dbms-fc8ab4c0-f246-4348-a4b1-e8003eb52fa8/import"
