@@ -121,6 +121,16 @@ def _valid_national_id(nid):
     return bool(re.match(r"^\d{10,20}$", nid))
 
 
+# ── Lookup helpers (Lab 04 refactor: extracted from duplicated inline code) ───
+def _find_center_by_id(centers, center_id):
+    """Find a center dict by its id, or None if not found."""
+    return next((c for c in centers if c["id"] == center_id), None)
+
+def _find_reservation_by_user_id(reservations, user_id):
+    """Find a reservation dict by user id, or None if not found."""
+    return next((r for r in reservations if r["user_id"] == user_id), None)
+
+
 # ── Auth ──────────────────────────────────────────────────────────────────────
 def register_user():
     """Register a new user and save to file."""
@@ -223,7 +233,7 @@ def add_or_remove_center():
             print("No centers on file.")
             return
         center_id = _ask_int("Enter center ID to remove: ")
-        target    = next((c for c in centers if c["id"] == center_id), None)
+        target    = _find_center_by_id(centers, center_id)
         if not target:
             print("Center not found.")
             return
@@ -277,11 +287,11 @@ def list_users_and_reservations():
     center_map = {c["id"]: c["name"] for c in centers}
 
     print("\n── Registered Users ──────────────────────────")
-    for u in users:
-        print(f"ID: {u['id']}  |  Name: {u['name']}  |  "
-              f"Email: {u['email']}  |  Phone: {u['phone']}")
+    for user in users:
+        print(f"ID: {user['id']}  |  Name: {user['name']}  |  "
+              f"Email: {user['email']}  |  Phone: {user['phone']}")
 
-        res = next((r for r in reservations if r["user_id"] == u["id"]), None)
+        res = _find_reservation_by_user_id(reservations, user["id"])
         if res:
             center_name = center_map.get(res["center_id"], "Unknown")
             date_str    = res.get("date") or "pending"
@@ -297,7 +307,7 @@ def accept_reservation():
     reservations = _load(RESERVATIONS_FILE)
     user_id      = _ask_int("Enter user ID: ")
 
-    res = next((r for r in reservations if r["user_id"] == user_id), None)
+    res = _find_reservation_by_user_id(reservations, user_id)
     if not res:
         print("No reservation found for that user.")
         return
@@ -354,7 +364,7 @@ def reserve_vaccination(user):
         return
 
     center_id = _ask_int("Center ID: ")
-    center    = next((c for c in centers if c["id"] == center_id), None)
+    center    = _find_center_by_id(centers, center_id)
 
     if not center:
         print("Center not found.")
@@ -382,7 +392,7 @@ def reserve_vaccination(user):
 def view_vaccination_date(user):
     """Show the user their assigned vaccination date."""
     reservations = _load(RESERVATIONS_FILE)
-    res = next((r for r in reservations if r["user_id"] == user["id"]), None)
+    res = _find_reservation_by_user_id(reservations, user["id"])
 
     if not res:
         print("You have no reservation yet.")
