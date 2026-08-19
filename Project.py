@@ -322,8 +322,7 @@ def accept_reservation():
     choice = input("Choice (1-2): ").strip()
 
     if choice == "1":
-        delta          = random.randint(10, 30)
-        assigned_date  = (datetime.date.today() + datetime.timedelta(days=delta)).strftime("%Y-%m-%d")
+        assigned_date = _auto_assigned_date_refactored()
     elif choice == "2":
         assigned_date  = _ask_date("Enter date (YYYY-MM-DD): ")
     else:
@@ -333,6 +332,12 @@ def accept_reservation():
     res["date"]    = assigned_date
     _save(RESERVATIONS_FILE, reservations)
     print(f"Reservation accepted! Assigned date: {assigned_date}")
+
+
+def _auto_assigned_date_refactored() -> Any:
+    delta = random.randint(10, 30)
+    assigned_date = (datetime.date.today() + datetime.timedelta(days=delta)).strftime("%Y-%m-%d")
+    return assigned_date
 
 
 # ── User features ─────────────────────────────────────────────────────────────
